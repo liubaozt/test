@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="ProjectManageId" value="项目管理："/>
+  <Text name="ProjectManageNo" value="项目管理编码："/>
+  <Text name="ProjectManageName" value="项目管理名称："/>
+</layout>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="StoreSiteSelect" value="存放地点选择"/>
+  <Text name="StoreSiteId" value="存放地点："/>
+  <Text name="StoreSiteNo" value="存放地点编码："/>
+  <Text name="StoreSiteName" value="存放地点名称："/>
+  <Text name="StoreSiteParentId" value="上级地点："/>
+</layout>

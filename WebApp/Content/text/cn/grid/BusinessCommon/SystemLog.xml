@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="系统日志表"/>
+  <columnLayout>
+    <Header name="LogDate"  caption="日期"  index="AssetsScrapNo" align="Left" hidden="false"  width="120" />
+    <Header name="UserId"  caption="用户"  index="AssetsScrapName" align="Left" hidden="false"  width="100" />
+    <Header name="Message" caption="信息" index="AssetsId" align="Left" hidden="false"  width="500"  />
+  </columnLayout>
+</gridLayout>

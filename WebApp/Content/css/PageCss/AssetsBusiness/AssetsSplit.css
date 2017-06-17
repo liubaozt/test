@@ -1,0 +1,75 @@
+﻿.labelAssetsSplitList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSplitList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSplitListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsSplitEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsSplitEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSplitEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSplitEntryColumn2
+{
+	width:220px;
+	float:left;
+}

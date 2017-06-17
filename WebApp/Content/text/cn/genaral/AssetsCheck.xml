@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsCheckList" value="资产盘点一览表"/>
+  <Text name="AssetsCheckStayList" value="盘点资产"/>
+  <Text name="AssetsCheckId" value="资产盘点："/>
+  <Text name="AssetsCheckNo" value="盘点编号："/>
+  <Text name="AssetsCheckName" value="盘点名称："/>
+  <Text name="CheckPeople" value="盘点人："/>
+  <Text name="CheckDate" value="盘点时间："/>
+</layout>

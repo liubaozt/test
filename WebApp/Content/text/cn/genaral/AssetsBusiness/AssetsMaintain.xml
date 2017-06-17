@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsMaintainId" value="资产维修："/>
+  <Text name="AssetsMaintainNo" value="维修编号："/>
+  <Text name="AssetsMaintainName" value="维修名称："/>
+  <Text name="MaintainDate" value="报修日期："/>
+  <Text name="MaintainActualDate" value="维修日期："/>
+</layout>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="assetsClassId" caption="资产分类主键" index="assetsClassId" align="Left" hidden="true"  width="100"  />
+  <Header name="assetsClassNo"  caption="资产分类编号"  index="assetsClassNo" align="Left" hidden="false"  width="100"/>
+  <Header name="assetsClassName" caption="资产分类名称"  index="assetsClassName" align="Left" hidden="false" width="150"/>
+  <Header name="parentId" caption="上级分类"  index="parentId" align="Left" hidden="false" width="150"/>
+  <Header name="depreciationType" caption="折旧方式"  index="depreciationType" align="Left" hidden="false" width="150"/>
+  <Header name="unitId" caption="计量单位"  index="unitId" align="Left" hidden="false" width="150"/>
+  <Header name="durableYears" caption="可用年限"  index="durableYears" align="Left" hidden="false" width="150"/>
+  <Header name="remainRate" caption="残值率"  index="remainRate" align="Left" hidden="false" width="150"/>
+  <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+  <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+  <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+  <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+  <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+</layout>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="借用资产一览表"/>
+  <columnLayout>
+    <Header name="assetsId" caption="资产主键" index="assetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="assetsNo"  caption="资产编号"  index="assetsNo" align="Left" hidden="false"  width="100"/>
+    <Header name="assetsName" caption="资产名称"  index="assetsName" align="Left" hidden="false" width="150"/>
+    <Header name="assetsClassId" caption="资产分类"  index="assetsClassId" align="Left" hidden="false" width="150"/>
+    <Header name="assetsTypeId" caption="资产类型"  index="assetsTypeId" align="Left" hidden="true" width="150"/>
+    <Header name="assetsUsesId" caption="资产用途"  index="assetsUsesId" align="Left" hidden="false" width="150"/>
+    <Header name="companyId" caption="公司"  index="companyId" align="Left" hidden="false" width="150" />
+    <Header name="departmentId" caption="使用部门"  index="departmentId" align="Left" hidden="true" width="150"/>
+    <Header name="departmentName" caption="使用部门"  index="departmentName" align="Left" hidden="false" width="150"/>
+    <Header name="storeSiteId" caption="存放地点"  index="storeSiteId" align="Left" hidden="true" width="150"/>
+    <Header name="storeSiteName" caption="存放地点"  index="storeSiteName" align="Left" hidden="false" width="150"/>
+    <Header name="usePeople" caption="使用人"  index="usePeople" align="Left" hidden="true" width="150"/>
+    <Header name="usePeopleName" caption="使用人"  index="usePeopleName" align="Left" hidden="false" width="150"/>
+    <Header name="keeper" caption="保管人"  index="keeper" align="Left" hidden="true" width="150"/>
+    <Header name="keeperName" caption="保管人"  index="keeperName" align="Left" hidden="false" width="150"/>
+    <Header name="borrowPeople" caption="借用人"  index="borrowPeople" align="Left" hidden="true" width="150"/>
+    <Header name="borrowPeopleName" caption="借用人"  index="borrowPeopleName" align="Left" hidden="false" width="150"/>
+    <Header name="borrowDepartmentId" caption="借用部门"  index="borrowDepartmentId" align="Left" hidden="true" width="150"/>
+    <Header name="borrowDepartmentName" caption="借用部门"  index="borrowDepartmentName" align="Left" hidden="false" width="150"/>
+    <Header name="borrowDate" caption="借用日期"  index="borrowDate" align="Left" hidden="false" width="150" />
+    <Header name="assetsState" caption="资产状态"  index="assetsState" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

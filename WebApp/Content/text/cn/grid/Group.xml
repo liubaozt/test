@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="groupId" caption="用户组主键" index="groupId" align="Left" hidden="true"  width="100"  />
+  <Header name="groupNo"  caption="用户组编号"  index="groupNo" align="Left" hidden="false"  width="100"/>
+  <Header name="groupName" caption="用户组名称"  index="groupName" align="Left" hidden="false" width="150"/>
+  <Header name="remark" caption="备注"  index="remark" align="Left" hidden="false" width="150"/>
+  <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+  <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+  <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+  <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+  <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+</layout>

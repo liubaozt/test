@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="调拨资产"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="80"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsTypeId" caption="资产类型" index="AssetsTypeId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="80"  />
+    <Header name="CompanyId" caption="公司"  index="CompanyId" align="Left" hidden="true" width="100" />
+    <Header name="OriginalDepartmentId" caption="原部门" index="OriginalDepartmentId" align="Left" hidden="true"  width="100"  />
+    <Header name="OriginalStoreSiteId" caption="原存放地点" index="OriginalStoreSiteId" align="Left" hidden="true"  width="100"  />
+    <Header name="OriginalKeeper" caption="原保管人" index="OriginalKeeper" align="Left" hidden="true"  width="80"  />
+    <Header name="OriginalUsePeople" caption="原使用人" index="OriginalUsePeople" align="Left" hidden="true"  width="80"  />
+    <Header name="OriginalDepartmentName" caption="原部门" index="OriginalDepartmentName" align="Left" hidden="false"  width="100"  />
+    <Header name="OriginalStoreSiteName" caption="原存放地点" index="OriginalStoreSiteName" align="Left" hidden="false"  width="90"  />
+    <Header name="OriginalKeeperName" caption="原保管人" index="OriginalKeeperName" align="Left" hidden="false"  width="80"  />
+    <Header name="OriginalUsePeopleName" caption="原使用人" index="OriginalUsePeopleName" align="Left" hidden="false"  width="80"  />
+    <Header name="AssetsStateId" caption="资产状态主键" index="AssetsStateId" align="Left" hidden="true"  width="100"  />
+    <Header name="spec" caption="序列号"  index="spec" align="Left" hidden="false" width="100"/>
+    <Header name="assetsQty" caption="资产数量"  index="assetsQty" align="Left" hidden="false" width="80"/>
+    <Header name="AssetsStateName"  caption="状态"  index="AssetsStateName" align="Left" hidden="false"  width="120" editable="true" edittype="select" formatter="select" datasourceurl="CodeTable/AssetsIdleStateDropList" />
+    <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150" editable="true"/>
+    <Header name="ApproveState" caption="审批状态" index="ApproveState" align="Left" hidden="true"  width="100"  />
+    <Header name="CreateId" caption="创建者" index="CreateId" align="Left" hidden="true"  width="100"  />
+    <Header name="CreateTime" caption="创建时间" index="CreateTime" align="Left" hidden="true"  width="100"  />
+  </columnLayout>
+</gridLayout>

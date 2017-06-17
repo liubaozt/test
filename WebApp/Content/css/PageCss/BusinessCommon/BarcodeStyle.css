@@ -1,0 +1,58 @@
+﻿.labelBarcodeStyleList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textBarcodeStyleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectBarcodeStyleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogBarcodeStyleList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.BarcodeStyleListColumn1
+{
+	width:220px;
+	float:left;
+}
+.BarcodeStyleListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelBarcodeStyleEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textBarcodeStyleEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectBarcodeStyleEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogBarcodeStyleEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

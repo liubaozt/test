@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产销售一览表"/>
+  <columnLayout>
+    <Header name="assetsSellId" caption="出售主键" index="assetsSellId" align="Left" hidden="true"  width="100"  />
+    <Header name="assetsSellNo"  caption="出售编码"  index="assetsSellNo" align="Left" hidden="false"  width="100"/>
+    <Header name="assetsSellName" caption="出售名称"  index="assetsSellName" align="Left" hidden="false" width="150"/>
+    <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+    <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+    <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+    <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+    <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+  </columnLayout>
+</gridLayout>

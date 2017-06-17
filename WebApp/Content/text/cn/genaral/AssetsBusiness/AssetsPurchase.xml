@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsPurchaseId" value="资产采购："/>
+  <Text name="AssetsPurchaseNo" value="采购编号："/>
+  <Text name="AssetsPurchaseName" value="采购主题："/>
+  <Text name="PurchaseDate" value="采购时间："/>
+  <Text name="PurchaseDetailInfo" value="采购明细信息"/>
+</layout>

@@ -1,0 +1,58 @@
+﻿.labelPostList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textPostList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectPostList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogPostList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.PostListColumn1
+{
+	width:220px;
+	float:left;
+}
+.PostListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelPostEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textPostEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectPostEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogPostEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

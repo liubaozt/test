@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="部门一览表"/>
+  <columnLayout>
+    <Header name="departmentId" caption="部门主键" index="departmentId" align="Left" hidden="true"  width="100"  />
+    <Header name="departmentNo"  caption="部门编码"  index="departmentNo" align="Left" hidden="false"  width="100" />
+    <Header name="departmentName"  caption="部门名称"  index="departmentName" align="Left" hidden="false"  width="100" />
+    <Header name="parentId" caption="所属上级"  index="parentId" align="Left" hidden="false" width="150" />
+    <Header name="companyId" caption="公司"  index="companyId" align="Left" hidden="false" width="150" />
+    <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+    <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+    <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+    <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+    <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+  </columnLayout>
+</gridLayout>

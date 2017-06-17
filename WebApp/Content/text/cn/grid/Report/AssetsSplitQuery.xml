@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产分割信息表"/>
+  <columnLayout>
+    <Header name="assetsSplitNo"  caption="拆分编码"  index="assetsSplitNo" align="Left" hidden="false"  width="100" />
+    <Header name="assetsSplitName" caption="拆分名称" index="assetsSplitName" align="Left" hidden="false"  width="100"  />
+    <Header name="newAssetsId" caption="新资产主键" index="newAssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="newAssetsNo" caption="新资产编号" index="newAssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="newAssetsName"  caption="新资产名称"  index="newAssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="newAssetsValue"  caption="新资产原值"  index="newAssetsValue" align="right" hidden="false"  width="100" />
+    <Header name="originalAssetsId" caption="原资产主键" index="originalAssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="originalAssetsNo" caption="原资产编号" index="originalAssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="originalAssetsName" caption="原资产名称"  index="originalAssetsName" align="Left" hidden="false" width="100"/>
+    <Header name="originalAssetsValue"  caption="原资产原值"  index="originalAssetsValue" align="right" hidden="false"  width="100" />
+    <Header name="remark" caption="备注"  index="remark" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="ScrapTypeId" value="报废方式："/>
+  <Text name="ScrapTypeNo" value="报废方式编码："/>
+  <Text name="ScrapTypeName" value="报废方式名称："/>
+</layout>

@@ -1,0 +1,58 @@
+﻿.labelWorkFlowList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textWorkFlowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectWorkFlowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogWorkFlowList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.WorkFlowListColumn1
+{
+	width:220px;
+	float:left;
+}
+.WorkFlowListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelWorkFlowEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textWorkFlowEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectWorkFlowEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogWorkFlowEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsTypeList" value="资产类型一览表"/>
+  <Text name="AssetsTypeId" value="资产类型："/>
+  <Text name="AssetsTypeNo" value="资产类型编码："/>
+  <Text name="AssetsTypeName" value="资产类型名称："/>
+</layout>

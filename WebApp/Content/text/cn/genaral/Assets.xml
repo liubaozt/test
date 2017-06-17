@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsList" value="资产一览表"/>
+  <Text name="AssetsApproveList" value="资产审批一览表"/>
+  <Text name="AssetsSelect" value="资产选择"/>
+  <Text name="AssetsId" value="资产："/>
+  <Text name="AssetsNo" value="资产编码："/>
+  <Text name="AssetsName" value="资产名称："/>
+  <Text name="DepreciationType" value="折旧方法："/>
+  <Text name="AssetsBarcode" value="资产条码："/>
+  <Text name="AssetsValue" value="资产价值："/>
+  <Text name="DurableYears" value="可用年限："/>
+  <Text name="RemainRate" value="残值率："/>
+  <Text name="PurchaseDate" value="购买日期："/>
+  <Text name="PurchaseNo" value="购买编号："/>
+  <Text name="InvoiceNo" value="发票编号："/>
+  <Text name="UsePeople" value="使用人："/>
+  <Text name="Keeper" value="保管人："/>
+  <Text name="AssetsState" value="资产状态："/>
+  <Text name="GuaranteeDays" value="保修天数："/>
+  <Text name="MaintainDays" value="维修天数："/>
+  <Text name="AssetsImg" value="资产图片："/>
+  <Text name="AdditionInfo" value="附加信息"/>
+</layout>

@@ -1,0 +1,75 @@
+﻿.labelAssetsMaintainList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMaintainListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsMaintainEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsMaintainEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMaintainEntryColumn2
+{
+	width:220px;
+	float:left;
+}

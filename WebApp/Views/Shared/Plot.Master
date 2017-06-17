@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage<BaseCommon.Models.PlotViewModel>"  %>
+<%@ Import Namespace="BaseControl.HtmlHelpers" %>
+<%@ Import Namespace="BaseCommon.Basic" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <link href="../../Content/css/jquery.jqplot.min.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+     <script src='<%=Url.Content("~/Scripts/used/jqplot/excanvas.min.js") %>'></script>
+     <![endif]-->
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jquery.jqplot.min.js") %>'></script>
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jqplot.canvasAxisTickRenderer.min.js") %>'></script>
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jqplot.canvasTextRenderer.js") %>'></script>
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jqplot.canvasAxisLabelRenderer.js") %>'></script>
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jqplot.categoryAxisRenderer.min.js") %>'></script>
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jqplot.pointLabels.min.js") %>'></script>
+     <script type="text/javascript" src='<%=Url.Content("~/Scripts/used/jqplot/jqplot.barRenderer.min.js") %>'></script>
+     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ <fieldset>
+    <%:Html.AppBeginForm(Model.PageId, Model.FormId)%>
+    <asp:ContentPlaceHolder ID="ConditonContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <%:Html.AppHiddenFor(m => m.FormMode,Model.PageId) %>
+    <%:Html.AppEndForm() %>
+     </fieldset>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+   <%-- <%:Html.AppNormalButton(Model.PageId, "btnQuery", AppMember.AppText["BtnQuery"])%>--%>
+  <%--  <%:Html.AppNormalButton(Model.PageId, "btnPrint", AppMember.AppText["BtnExportImage"])%>--%>
+    <%:Html.AppHiddenFor(m => m.PageId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ViewTitle,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.Message, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.HasError, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ExportUrl, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.FormId, Model.PageId)%>
+    <%:Html.AppBeginForm(Model.PageId, Model.FormId+"Var")%>
+    <%:Html.AppHiddenFor(m => m.FormVar, Model.PageId)%>
+    <%:Html.AppEndForm() %>
+</body>
+</html>

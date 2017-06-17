@@ -1,0 +1,58 @@
+﻿.labelSetBooksList
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textSetBooksList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectSetBooksList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogSetBooksList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.SetBooksListColumn1
+{
+	width:220px;
+	float:left;
+}
+.SetBooksListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelSetBooksEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textSetBooksEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectSetBooksEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogSetBooksEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

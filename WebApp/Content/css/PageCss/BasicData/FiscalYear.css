@@ -1,0 +1,58 @@
+﻿.labelFiscalYearList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textFiscalYearList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalYearList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalYearList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.FiscalYearListColumn1
+{
+	width:220px;
+	float:left;
+}
+.FiscalYearListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelFiscalYearEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textFiscalYearEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalYearEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalYearEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

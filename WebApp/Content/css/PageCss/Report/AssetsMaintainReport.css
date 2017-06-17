@@ -1,0 +1,34 @@
+﻿.labelAssetsMaintainReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsMaintainReportColumn2
+{
+	width:250px;
+	float:left;
+}

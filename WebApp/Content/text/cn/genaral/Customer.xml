@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="CustomerList" value="客户一览表"/>
+  <Text name="CustomerId" value="客户："/>
+  <Text name="CustomerNo" value="客户编码："/>
+  <Text name="CustomerName" value="客户名称："/>
+</layout>

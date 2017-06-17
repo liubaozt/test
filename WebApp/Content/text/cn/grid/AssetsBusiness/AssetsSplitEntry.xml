@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="分割后资产"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100" editable="true"    />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" editable="true"   />
+    <Header name="AssetsTypeId" caption="资产类型" index="AssetsTypeId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsValue"  caption="资产原值"  index="AssetsValue" align="Left" hidden="false"  width="60" editable="true"  />
+    <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150" editable="true"/>
+    <Header name="OriginalAssetsId" caption="原资产主键"  index="OriginalAssetsId" align="Left" hidden="true" width="150" />
+    <Header name="ApproveState" caption="审批状态" index="ApproveState" align="Left" hidden="true"  width="100"  />
+    <Header name="CreateId" caption="创建者" index="CreateId" align="Left" hidden="true"  width="100"  />
+    <Header name="CreateTime" caption="创建时间" index="CreateTime" align="Left" hidden="true"  width="100"  />
+  </columnLayout>
+</gridLayout>

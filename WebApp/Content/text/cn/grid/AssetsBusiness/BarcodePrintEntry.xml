@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="选择打印资产列表"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsClassName" caption="资产分类" index="AssetsClassName" align="Left" hidden="false"  width="100"  />
+    <Header name="ImgDefault" caption="资产图片" index="ImgDefault" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsBarcode" caption="资产条码" index="AssetsBarcode" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsUsesName" caption="资产用途" index="AssetsUsesName" align="Left" hidden="false"  width="100"  />
+    <Header name="CompanyName" caption="公司" index="CompanyName" align="Left" hidden="false"  width="100"  />
+    <Header name="DepartmentName" caption="部门" index="DepartmentName" align="Left" hidden="false"  width="100"  />
+    <Header name="StoreSiteName" caption="存放地点" index="StoreSiteName" align="Left" hidden="false"  width="100"  />
+    <Header name="UsePeopleName" caption="使用人" index="UsePeopleName" align="Left" hidden="false"  width="100"  />
+    <Header name="KeeperName" caption="保管人" index="KeeperName" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsValue" caption="资产原值" index="AssetsValue" align="Right" hidden="false"  width="100"  />
+    <Header name="PurchaseDate" caption="入库日期" index="PurchaseDate" align="Center" hidden="false"  width="100"  />
+    <Header name="DuetoDate" caption="到期日期" index="DuetoDate" align="Center" hidden="false"  width="100"  />
+    <Header name="EquityOwnerName" caption="产权归属" index="EquityOwnerName" align="Left" hidden="false"  width="100"  />
+    <Header name="Spec" caption="规格型号" index="Spec" align="Left" hidden="false"  width="100"  />
+    <Header name="Remark" caption="备注" index="Remark" align="Left" hidden="false"  width="100"  />
+    <Header name="ProjectManageName" caption="项目管理" index="ProjectManageName" align="Left" hidden="false"  width="100"  />
+  </columnLayout>
+</gridLayout>

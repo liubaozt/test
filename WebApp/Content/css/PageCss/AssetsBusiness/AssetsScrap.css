@@ -1,0 +1,75 @@
+﻿.labelAssetsScrapList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsScrapListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsScrapEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsScrapEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsScrapEntryColumn2
+{
+	width:220px;
+	float:left;
+}

@@ -1,0 +1,58 @@
+﻿.labelProjectManageList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textProjectManageList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectProjectManageList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogProjectManageList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.ProjectManageListColumn1
+{
+	width:220px;
+	float:left;
+}
+.ProjectManageListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelProjectManageEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textProjectManageEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectProjectManageEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogProjectManageEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

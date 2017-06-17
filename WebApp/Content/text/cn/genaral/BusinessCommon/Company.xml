@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="CompanySelect" value="公司选择"/>
+  <Text name="CompanyId" value="公司："/>
+  <Text name="CompanyNo" value="公司编码："/>
+  <Text name="CompanyName" value="公司名称："/>
+  <Text name="IsHeaderOffice" value="是总公司："/>
+</layout>

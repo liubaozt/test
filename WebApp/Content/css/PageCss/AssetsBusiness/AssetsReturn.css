@@ -1,0 +1,89 @@
+﻿.labelAssetsReturnList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsReturnList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsReturnList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsReturnEntry
+{
+    LEFT: 80px;
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsReturnEntry
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsReturnList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsReturnListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsReturnListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsReturnEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsReturnEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsReturnEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsReturnEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsReturnEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsReturnEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsReturnEntryColumn2
+{
+	width:220px;
+	float:left;
+}

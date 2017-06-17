@@ -1,0 +1,34 @@
+﻿.labelAuthorityEntry
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.textAuthorityEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAuthorityEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAuthorityEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AuthorityEntryColumn1
+{
+	width:200px;
+	float:left;
+}
+.AuthorityEntryColumn2
+{
+	width:200px;
+	float:left;
+}

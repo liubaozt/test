@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E078E4E-89E4-4A22-9783-763CDD2F29CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessCommon</RootNamespace>
+    <AssemblyName>BusinessCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppSecurity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebApp\Content\refDll\AppSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Group\SelectModel.cs" />
+    <Compile Include="Models\SystemLog\EntryModel.cs" />
+    <Compile Include="Models\Tools\EntryModel.cs" />
+    <Compile Include="Models\PasswordModifiy\EntryModel.cs" />
+    <Compile Include="Models\Company\EntryModel.cs" />
+    <Compile Include="Models\Company\ListModel.cs" />
+    <Compile Include="Models\DataImport\EntryModel.cs" />
+    <Compile Include="Models\SetBooks\EntryModel.cs" />
+    <Compile Include="Models\SetBooks\ListModel.cs" />
+    <Compile Include="Repositorys\DataBaseBackupRepository.cs" />
+    <Compile Include="Repositorys\SystemLogRepository.cs" />
+    <Compile Include="Repositorys\CodeTableRepository.cs" />
+    <Compile Include="Repositorys\GroupRepository.cs" />
+    <Compile Include="Repositorys\AuthorityRepository.cs" />
+    <Compile Include="Repositorys\PostRepository.cs" />
+    <Compile Include="Repositorys\TestRepository.cs" />
+    <Compile Include="Repositorys\DepartmentRepository.cs" />
+    <Compile Include="Repositorys\WorkFlowRepository.cs" />
+    <Compile Include="Repositorys\BarcodeStyleRepository.cs" />
+    <Compile Include="Models\Authority\EntryModel.cs" />
+    <Compile Include="Models\BarcodeStyle\EntryModel.cs" />
+    <Compile Include="Models\BarcodeStyle\ListModel.cs" />
+    <Compile Include="Models\Department\EntryModel.cs" />
+    <Compile Include="Models\Department\ListModel.cs" />
+    <Compile Include="Models\Department\SelectModel.cs" />
+    <Compile Include="Models\Group\EntryModel.cs" />
+    <Compile Include="Models\Group\ListModel.cs" />
+    <Compile Include="Models\Post\EntryModel.cs" />
+    <Compile Include="Models\Post\ListModel.cs" />
+    <Compile Include="Models\Test\EntryModel.cs" />
+    <Compile Include="Models\User\EntryModel.cs" />
+    <Compile Include="Models\User\ListModel.cs" />
+    <Compile Include="Models\WorkFlow\EntryModel.cs" />
+    <Compile Include="Models\WorkFlow\ListModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorys\UserRepository.cs" />
+    <Compile Include="Repositorys\CacheRepository.cs" />
+    <Compile Include="Repositorys\ToolsRepository.cs" />
+    <Compile Include="Repositorys\PasswordModifiyRepository.cs" />
+    <Compile Include="Repositorys\CompanyRepository.cs" />
+    <Compile Include="Repositorys\DataImportRepository.cs" />
+    <Compile Include="Repositorys\SetBooksRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseCommon\BaseCommon.csproj">
+      <Project>{10CF90B4-F130-4AD9-9B0B-07CB0885E5B3}</Project>
+      <Name>BaseCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

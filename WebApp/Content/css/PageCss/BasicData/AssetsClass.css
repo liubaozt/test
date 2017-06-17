@@ -1,0 +1,58 @@
+﻿.labelAssetsClassList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsClassList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsClassList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsClassList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsClassListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsClassListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsClassEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsClassEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsClassEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsClassEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

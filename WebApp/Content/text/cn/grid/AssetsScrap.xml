@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="assetsScrapId" caption="报废主键" index="assetsScrapId" align="Left" hidden="true"  width="100"  />
+  <Header name="assetsScrapNo"  caption="报废编号"  index="assetsScrapNo" align="Left" hidden="false"  width="100"/>
+  <Header name="assetsScrapName" caption="报废名称"  index="assetsScrapName" align="Left" hidden="false" width="150"/>
+  <Header name="createId" caption="制单人" index="createId" align="Left" hidden="false"  width="100"/>
+  <Header name="createTime" caption="制单时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+  <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+  <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+  <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+</layout>

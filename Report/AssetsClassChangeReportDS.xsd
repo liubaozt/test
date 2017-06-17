@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AssetsClassChangeReportDS" targetNamespace="http://tempuri.org/AssetsClassChangeReportDS.xsd" xmlns:mstns="http://tempuri.org/AssetsClassChangeReportDS.xsd" xmlns="http://tempuri.org/AssetsClassChangeReportDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AssetsClassChangeReportDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AssetsClassChangeReportDS" msprop:Generator_UserDSName="AssetsClassChangeReportDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AssetsClassChangeReport" msprop:Generator_TableClassName="AssetsClassChangeReportDataTable" msprop:Generator_TableVarName="tableAssetsClassChangeReport" msprop:Generator_TablePropName="AssetsClassChangeReport" msprop:Generator_RowDeletingName="AssetsClassChangeReportRowDeleting" msprop:Generator_UserTableName="AssetsClassChangeReport" msprop:Generator_RowChangingName="AssetsClassChangeReportRowChanging" msprop:Generator_RowEvHandlerName="AssetsClassChangeReportRowChangeEventHandler" msprop:Generator_RowDeletedName="AssetsClassChangeReportRowDeleted" msprop:Generator_RowEvArgName="AssetsClassChangeReportRowChangeEvent" msprop:Generator_RowChangedName="AssetsClassChangeReportRowChanged" msprop:Generator_RowClassName="AssetsClassChangeReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="assetsClassId" msprop:Generator_ColumnVarNameInTable="columnassetsClassId" msprop:Generator_ColumnPropNameInRow="assetsClassId" msprop:Generator_ColumnPropNameInTable="assetsClassIdColumn" msprop:Generator_UserColumnName="assetsClassId" type="xs:string" minOccurs="0" />
+              <xs:element name="assetsClassName" msprop:Generator_ColumnVarNameInTable="columnassetsClassName" msprop:Generator_ColumnPropNameInRow="assetsClassName" msprop:Generator_ColumnPropNameInTable="assetsClassNameColumn" msprop:Generator_UserColumnName="assetsClassName" type="xs:string" minOccurs="0" />
+              <xs:element name="beginPeriodNum" msprop:Generator_ColumnVarNameInTable="columnbeginPeriodNum" msprop:Generator_ColumnPropNameInRow="beginPeriodNum" msprop:Generator_ColumnPropNameInTable="beginPeriodNumColumn" msprop:Generator_UserColumnName="beginPeriodNum" type="xs:int" minOccurs="0" />
+              <xs:element name="beginPeriodAmt" msprop:Generator_ColumnVarNameInTable="columnbeginPeriodAmt" msprop:Generator_ColumnPropNameInRow="beginPeriodAmt" msprop:Generator_ColumnPropNameInTable="beginPeriodAmtColumn" msprop:Generator_UserColumnName="beginPeriodAmt" type="xs:double" minOccurs="0" />
+              <xs:element name="currentPeriodAddNum" msprop:Generator_ColumnVarNameInTable="columncurrentPeriodAddNum" msprop:Generator_ColumnPropNameInRow="currentPeriodAddNum" msprop:Generator_ColumnPropNameInTable="currentPeriodAddNumColumn" msprop:Generator_UserColumnName="currentPeriodAddNum" type="xs:int" minOccurs="0" />
+              <xs:element name="currentPeriodAddAmt" msprop:Generator_ColumnVarNameInTable="columncurrentPeriodAddAmt" msprop:Generator_ColumnPropNameInRow="currentPeriodAddAmt" msprop:Generator_ColumnPropNameInTable="currentPeriodAddAmtColumn" msprop:Generator_UserColumnName="currentPeriodAddAmt" type="xs:double" minOccurs="0" />
+              <xs:element name="currentPeriodReduceNum" msprop:Generator_ColumnVarNameInTable="columncurrentPeriodReduceNum" msprop:Generator_ColumnPropNameInRow="currentPeriodReduceNum" msprop:Generator_ColumnPropNameInTable="currentPeriodReduceNumColumn" msprop:Generator_UserColumnName="currentPeriodReduceNum" type="xs:int" minOccurs="0" />
+              <xs:element name="currentPeriodReduceAmt" msprop:Generator_ColumnVarNameInTable="columncurrentPeriodReduceAmt" msprop:Generator_ColumnPropNameInRow="currentPeriodReduceAmt" msprop:Generator_ColumnPropNameInTable="currentPeriodReduceAmtColumn" msprop:Generator_UserColumnName="currentPeriodReduceAmt" type="xs:double" minOccurs="0" />
+              <xs:element name="endPeriodNum" msprop:Generator_ColumnVarNameInTable="columnendPeriodNum" msprop:Generator_ColumnPropNameInRow="endPeriodNum" msprop:Generator_ColumnPropNameInTable="endPeriodNumColumn" msprop:Generator_UserColumnName="endPeriodNum" type="xs:int" minOccurs="0" />
+              <xs:element name="endPeriodAmt" msprop:Generator_ColumnVarNameInTable="columnendPeriodAmt" msprop:Generator_ColumnPropNameInRow="endPeriodAmt" msprop:Generator_ColumnPropNameInTable="endPeriodAmtColumn" msprop:Generator_UserColumnName="endPeriodAmt" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

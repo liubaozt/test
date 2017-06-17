@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="DepreciationRuleId" value="折旧代码主键："/>
+  <Text name="DepreciationRuleNo" value="折旧代码："/>
+  <Text name="TotalMonth" value="折旧月数："/>
+  <Text name="RemainRate" value="残值率："/>
+  <Text name="DepreciationType" value="折旧方法："/>
+</layout>

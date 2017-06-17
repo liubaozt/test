@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="WfId" value="流程："/>
+  <Text name="WfName" value="流程名称："/>
+  <Text name="ApproveTable" value="审批对象："/>
+</layout>

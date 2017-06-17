@@ -1,0 +1,58 @@
+﻿.labelCompanyList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textCompanyList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectCompanyList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogCompanyList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.CompanyListColumn1
+{
+	width:220px;
+	float:left;
+}
+.CompanyListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelCompanyEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textCompanyEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectCompanyEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogCompanyEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

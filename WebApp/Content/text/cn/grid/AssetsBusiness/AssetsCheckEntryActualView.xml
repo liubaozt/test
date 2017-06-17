@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产盘点信息表"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsTypeId" caption="资产类型" index="AssetsTypeId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="100"  />
+    <Header name="CompanyId" caption="公司"  index="CompanyId" align="Left" hidden="true" width="150" />
+    <Header name="AssetsBarcode" caption="资产条码"  index="AssetsBarcode" align="Left" hidden="false" width="150" />
+    <Header name="DepartmentName" caption="部门" index="DepartmentName" align="Left" hidden="true"  width="100"  />
+    <Header name="StoreSiteId" caption="存放地点" index="StoreSiteId" align="Left" hidden="true"  width="100"  />
+    <Header name="StoreSiteName" caption="存放地点" index="StoreSiteName" align="Left" hidden="false"  width="100"  />
+    <Header name="ActualDepartmentText" caption="实际部门" index="ActualDepartmentText" align="Left" hidden="true"  width="100"  />
+    <Header name="ActualStoreSiteText" caption="实际存放地点" index="ActualStoreSiteText" align="Left" hidden="false"  width="100"  />
+    <Header name="ActualCheckDate" caption="实际盘点日期" index="ActualCheckDate" align="Center" hidden="false"  width="110"   />
+    <Header name="CheckResultText" caption="盘点结果" index="CheckResultText" align="Left" hidden="false"  width="100" />
+    <Header name="IsFinishedText" caption="完成" index="IsFinishedText" align="Left" hidden="true"  width="100" />
+    <Header name="ApproveState" caption="审批状态" index="ApproveState" align="Left" hidden="true"  width="100"  />
+    <Header name="CreateId" caption="创建者" index="CreateId" align="Left" hidden="true"  width="100"  />
+    <Header name="CreateTime" caption="创建时间" index="CreateTime" align="Left" hidden="true"  width="100"  />
+  </columnLayout>
+</gridLayout>

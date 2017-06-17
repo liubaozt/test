@@ -1,0 +1,49 @@
+﻿
+.labelBarcodePrintEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.labelBarcodePrintStyle
+{
+	width:50px;
+	float:left;
+	text-align:left;
+}
+.textBarcodePrintEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectBarcodePrintEntry
+{
+	width:104px;
+	float:left;
+	text-align:left;
+}
+.dialogBarcodePrintEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.BarcodePrintEntryColumn1
+{
+	width:200px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.BarcodePrintEntryColumn2
+{
+	width:200px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.BarcodePrintEntryColumn3
+{
+	width:200px;
+	float:left;
+	margin:0 0 0 5px;
+}

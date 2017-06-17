@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产审批一览表"/>
+  <columnLayout>
+    <Header name="assetsId" caption="资产主键" index="assetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="assetsNo"  caption="资产编号"  index="assetsNo" align="Left" hidden="false"  width="100"/>
+    <Header name="assetsName" caption="资产名称"  index="assetsName" align="Left" hidden="false" width="150"/>
+    <Header name="assetsClassId" caption="资产分类"  index="assetsClassId" align="Left" hidden="false" width="150"/>
+    <Header name="approveState" caption="审批状态"  index="approveState" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

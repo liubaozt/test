@@ -1,0 +1,39 @@
+﻿.labelUpcomingGuaranteeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textUpcomingGuaranteeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectUpcomingGuaranteeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogUpcomingGuaranteeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.UpcomingGuaranteeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.UpcomingGuaranteeReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.UpcomingGuaranteeReportColumn3
+{
+	width:250px;
+	float:left;
+}

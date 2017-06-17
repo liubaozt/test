@@ -1,0 +1,58 @@
+﻿.labelScrapTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textScrapTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectScrapTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogScrapTypeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.ScrapTypeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.ScrapTypeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelScrapTypeEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textScrapTypeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectScrapTypeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogScrapTypeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

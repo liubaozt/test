@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsBorrowReturnReport" value="资产借还"/>
+  <Text name="AssetsSplitReport" value="资产拆分"/>
+  <Text name="AssetsMergeReport" value="资产合并"/>
+  <Text name="AssetsCheckReport" value="资产盘点"/>
+</layout>

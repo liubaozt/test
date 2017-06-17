@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="UserNoA" value="用户名："/>
+  <Text name="UserPwd" value="密码："/>
+</layout>

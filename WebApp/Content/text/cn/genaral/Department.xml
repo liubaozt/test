@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="DepartmentList" value="部门一览表"/>
+  <Text name="DepartmentSelect" value="部门选择"/>
+  <Text name="DepartmentId" value="部门："/>
+  <Text name="DepartmentName" value="部门名称："/>
+  <Text name="ParentDepartmentId" value="上级部门："/>
+</layout>

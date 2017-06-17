@@ -1,0 +1,58 @@
+﻿.labelSupplierList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textSupplierList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectSupplierList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogSupplierList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.SupplierListColumn1
+{
+	width:220px;
+	float:left;
+}
+.SupplierListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelSupplierEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textSupplierEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectSupplierEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogSupplierEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

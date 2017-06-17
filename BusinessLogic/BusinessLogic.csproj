@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5455E546-4BCB-4FC4-B2B6-4702EC4328D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessLogic</RootNamespace>
+    <AssemblyName>BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\WebApp\Content\refDll\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssetsBusiness\Models\AssetsBorrow\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsBorrow\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsCheck\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsCheck\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsCheck\EntryQueryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsDepreciation\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsInsure\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsInsure\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsLease\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsLease\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsMaintain\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsMaintain\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsManage\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsManage\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsManage\SelectModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsManage\BatchDeleteModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsMerge\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsMerge\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsPurchase\PurchaseModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsReturn\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsReturn\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsScrap\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsScrap\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsSell\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsSell\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsSplit\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsSplit\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsTransfer\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsTransfer\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Models\BarcodePrint\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\BarcodePrint\Entry2Model.cs" />
+    <Compile Include="AssetsBusiness\Models\MonthRecord\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsPurchase\EntryModel.cs" />
+    <Compile Include="AssetsBusiness\Models\AssetsPurchase\ListModel.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsCardExcel.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsScrapRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsTransferRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsMaintainRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsSellRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsLeaseRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsInsureRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsBorrowRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsReturnRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsSplitRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsMergeRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsDepreciationRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsCheckRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\BarcodePrintRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\MonthRecordRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\AssetsPurchaseRepository.cs" />
+    <Compile Include="BasicData\Models\AccountSubject\EntryModel.cs" />
+    <Compile Include="BasicData\Models\AccountSubject\ListModel.cs" />
+    <Compile Include="BasicData\Models\AccountSubject\SelectModel.cs" />
+    <Compile Include="BasicData\Models\AssetsClass\EntryModel.cs" />
+    <Compile Include="BasicData\Models\AssetsClass\ListModel.cs" />
+    <Compile Include="BasicData\Models\AssetsClass\SelectModel.cs" />
+    <Compile Include="BasicData\Models\AssetsType\EntryModel.cs" />
+    <Compile Include="BasicData\Models\AssetsType\ListModel.cs" />
+    <Compile Include="BasicData\Models\AssetsUses\EntryModel.cs" />
+    <Compile Include="BasicData\Models\AssetsUses\ListModel.cs" />
+    <Compile Include="BasicData\Models\AutoPeriod\EntryModel.cs" />
+    <Compile Include="BasicData\Models\Customer\EntryModel.cs" />
+    <Compile Include="BasicData\Models\Customer\ListModel.cs" />
+    <Compile Include="BasicData\Models\EquityOwner\EntryModel.cs" />
+    <Compile Include="BasicData\Models\EquityOwner\ListModel.cs" />
+    <Compile Include="BasicData\Models\FiscalPeriod\EntryModel.cs" />
+    <Compile Include="BasicData\Models\FiscalPeriod\ListModel.cs" />
+    <Compile Include="BasicData\Models\FiscalYear\EntryModel.cs" />
+    <Compile Include="BasicData\Models\FiscalYear\ListModel.cs" />
+    <Compile Include="BasicData\Models\PurchaseType\EntryModel.cs" />
+    <Compile Include="BasicData\Models\PurchaseType\ListModel.cs" />
+    <Compile Include="BasicData\Models\ScrapType\EntryModel.cs" />
+    <Compile Include="BasicData\Models\ScrapType\ListModel.cs" />
+    <Compile Include="BasicData\Models\StoreSite\EntryModel.cs" />
+    <Compile Include="BasicData\Models\StoreSite\ListModel.cs" />
+    <Compile Include="BasicData\Models\StoreSite\SelectModel.cs" />
+    <Compile Include="BasicData\Models\Supplier\EntryModel.cs" />
+    <Compile Include="BasicData\Models\Supplier\ListModel.cs" />
+    <Compile Include="BasicData\Models\Unit\EntryModel.cs" />
+    <Compile Include="BasicData\Models\Unit\ListModel.cs" />
+    <Compile Include="BasicData\Models\ProjectManage\EntryModel.cs" />
+    <Compile Include="BasicData\Models\ProjectManage\ListModel.cs" />
+    <Compile Include="BasicData\Models\DepreciationRule\EntryModel.cs" />
+    <Compile Include="BasicData\Models\DepreciationRule\ListModel.cs" />
+    <Compile Include="BasicData\Repositorys\AssetsClassRepository.cs" />
+    <Compile Include="BasicData\Repositorys\AssetsTypeRepository.cs" />
+    <Compile Include="BasicData\Repositorys\AssetsUsesRepository.cs" />
+    <Compile Include="BasicData\Repositorys\CustomerRepository.cs" />
+    <Compile Include="BasicData\Repositorys\AutoPeriodRepository.cs" />
+    <Compile Include="AssetsBusiness\Repositorys\PDACheck.cs" />
+    <Compile Include="BasicData\Repositorys\EquityOwnerRepository.cs" />
+    <Compile Include="BasicData\Repositorys\PurchaseTypeRepository.cs" />
+    <Compile Include="BasicData\Repositorys\ScrapTypeRepository.cs" />
+    <Compile Include="BasicData\Repositorys\SupplierRepository.cs" />
+    <Compile Include="BasicData\Repositorys\UnitRepository.cs" />
+    <Compile Include="BasicData\Repositorys\FiscalYearRepository.cs" />
+    <Compile Include="BasicData\Repositorys\FiscalPeriodRepository.cs" />
+    <Compile Include="BasicData\Repositorys\AccountSubjectRepository.cs" />
+    <Compile Include="BasicData\Repositorys\StoreSiteRepository.cs" />
+    <Compile Include="BasicData\Repositorys\ProjectManageRepository.cs" />
+    <Compile Include="BasicData\Repositorys\DepreciationRuleRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\Models\AssetsChangeReport\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsScrapQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsTransferQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsMaintainQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsDepreciationQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsBorrowReturnQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsSplitQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsMergeQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsCheckQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\UpcomingScrapQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\UpcomingGuaranteeQuery\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsClassPlot\EntryModel.cs" />
+    <Compile Include="Report\Models\AssetsClassIdlePlot\EntryModel.cs" />
+    <Compile Include="Report\Models\StoreSiteAssetsPlot\EntryModel.cs" />
+    <Compile Include="Report\Repositorys\AssetsChangeReportRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsClassPlotRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsScrapQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsTransferQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsMaintainQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsDepreciationQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsBorrowReturnQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsSplitQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsMergeQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsCheckQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\UpcomingScrapQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\UpcomingGuaranteeQueryRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsClassIdlePlotRepository.cs" />
+    <Compile Include="Report\Repositorys\StoreSiteAssetsPlotRepository.cs" />
+    <Compile Include="Report\Repositorys\AssetsQueryRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseCommon\BaseCommon.csproj">
+      <Project>{10CF90B4-F130-4AD9-9B0B-07CB0885E5B3}</Project>
+      <Name>BaseCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessCommon\BusinessCommon.csproj">
+      <Project>{3E078E4E-89E4-4A22-9783-763CDD2F29CD}</Project>
+      <Name>BusinessCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

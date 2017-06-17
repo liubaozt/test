@@ -1,0 +1,58 @@
+﻿.labelStoreSiteList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textStoreSiteList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectStoreSiteList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogStoreSiteList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.StoreSiteListColumn1
+{
+	width:220px;
+	float:left;
+}
+.StoreSiteListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelStoreSiteEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textStoreSiteEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectStoreSiteEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogStoreSiteEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

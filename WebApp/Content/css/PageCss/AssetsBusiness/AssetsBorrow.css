@@ -1,0 +1,89 @@
+﻿.labelAssetsBorrowList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsBorrowListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsBorrowEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsBorrowEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsBorrowEntry
+{
+    LEFT: 80px;
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsBorrowEntry
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsBorrowEntryColumn2
+{
+	width:220px;
+	float:left;
+}

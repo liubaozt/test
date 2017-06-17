@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsMaintainList" value="资产维修一览表"/>
+  <Text name="AssetsMaintainStayList" value="维修资产"/>
+  <Text name="AssetsMaintainId" value="资产维修："/>
+  <Text name="AssetsMaintainNo" value="维修编号："/>
+  <Text name="AssetsMaintainName" value="维修名称："/>
+  <Text name="MaintainDate" value="维修时间："/>
+</layout>

@@ -1,0 +1,34 @@
+﻿.labelAssetsBorrowReturnReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowReturnReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowReturnReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowReturnReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowReturnReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsBorrowReturnReportColumn2
+{
+	width:250px;
+	float:left;
+}

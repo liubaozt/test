@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="FiscalYearList" value="用户组一览表"/>
+  <Text name="FiscalYearId" value="会计年度："/>
+  <Text name="FiscalYearName" value="会计年度："/>
+  <Text name="FromDate" value="起始日期："/>
+  <Text name="ToDate" value="结束日期："/>
+</layout>

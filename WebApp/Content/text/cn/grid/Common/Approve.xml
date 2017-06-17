@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="审批一览表"/>
+  <columnLayout>
+    <Header name="approveTime" caption="审批时间"  index="approveTime" align="Left" hidden="false" width="160"  />
+    <Header name="approver"  caption="审批人"  index="approver" align="Left" hidden="false"  width="100"/>
+    <Header name="approveState" caption="审批状态"  index="approveState" align="Left" hidden="false" width="80"/>
+    <Header name="approveMind" caption="审批意见"  index="approveMind" align="Left" hidden="false" width="250"/>
+    <Header name="approveLevel" caption="审批级数"  index="approveLevel" align="Left" hidden="true" width="150"/>
+    <Header name="seqno" caption="审批次数"  index="seqno" align="Left" hidden="true" width="150"/>
+  </columnLayout>
+</gridLayout>

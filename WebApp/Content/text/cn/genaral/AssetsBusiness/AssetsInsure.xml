@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsInsureId" value="资产保险："/>
+  <Text name="AssetsInsureNo" value="保险编号："/>
+  <Text name="AssetsInsureName" value="保险名称："/>
+  <Text name="InsureDate" value="保险时间："/>
+</layout>

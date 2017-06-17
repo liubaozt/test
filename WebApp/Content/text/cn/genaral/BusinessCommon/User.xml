@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="User" value="用户"/>
+  <Text name="UserId" value="用户："/>
+  <Text name="UserNo" value="用户编码："/>
+  <Text name="UserName" value="用户名称："/>
+  <Text name="UserPwd" value="密码："/>
+  <Text name="Sex" value="性别："/>
+  <Text name="Tel" value="电话："/>
+  <Text name="Email" value="邮箱："/>
+  <Text name="Address" value="地址："/>
+  <Text name="Man" value="男"/>
+  <Text name="Women" value="女"/>
+  <Text name="IsSysUser" value="是系统用户："/>
+  <Text name="HasApproveAuthority" value="有审批权限："/>
+  <Text name="AccessLevel" value="数据访问级别："/>
+  <Text name="AllLevel" value="所有数据"/>
+  <Text name="CompanyLevel" value="公司数据"/>
+  <Text name="DepartmentLevel" value="部门数据"/>
+  <Text name="MyLevel" value="自己数据"/>
+</layout>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="客户一览表"/>
+  <columnLayout>
+    <Header name="customerId" caption="客户主键" index="customerId" align="Left" hidden="true"  width="100"  />
+    <Header name="customerNo"  caption="客户编码"  index="customerNo" align="Left" hidden="false"  width="100"/>
+    <Header name="customerName" caption="客户名称"  index="customerName" align="Left" hidden="false" width="150"/>
+    <Header name="tel" caption="联系电话"  index="tel" align="Left" hidden="false" width="150"/>
+    <Header name="email" caption="邮箱"  index="email" align="Left" hidden="false" width="150"/>
+    <Header name="address" caption="地址"  index="address" align="Left" hidden="false" width="150"/>
+    <Header name="contacts" caption="联系人"  index="contacts" align="Left" hidden="false" width="150"/>
+    <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+    <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+    <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+    <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+    <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+  </columnLayout>
+</gridLayout>

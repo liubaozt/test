@@ -1,0 +1,17 @@
+
+
+
+input[type="button"]
+{
+	background: url(blue.png) no-repeat  top right;
+	color: #999;
+	border: 0 none;
+	display: block;
+	padding: 0;
+	cursor: pointer;
+}
+input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus
+{
+	background: url(blue.png) no-repeat top right; 
+	color: #000;
+}

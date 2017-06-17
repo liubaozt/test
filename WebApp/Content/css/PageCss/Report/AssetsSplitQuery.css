@@ -1,0 +1,39 @@
+﻿.labelAssetsSplitReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitReport
+{
+	width:126px;
+	float:left;
+	text-align:left;    
+}
+.dialogAssetsSplitReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsSplitReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.AssetsSplitReportColumn3
+{
+	width:250px;
+	float:left;
+}

@@ -1,0 +1,34 @@
+﻿.labelAssetsScrapReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsScrapReportColumn2
+{
+	width:250px;
+	float:left;
+}

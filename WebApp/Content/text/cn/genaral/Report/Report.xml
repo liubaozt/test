@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsBorrowReturnReport" value="资产借还"/>
+  <Text name="AssetsSplitReport" value="资产拆分"/>
+  <Text name="AssetsMergeReport" value="资产合并"/>
+  <Text name="AssetsCheckReport" value="资产盘点"/>
+  <Text name="DepreciationEndDate1" value="到期日期(从):"/>
+  <Text name="DepreciationEndDate2" value="到期日期(至):"/>
+  <Text name="TransferDate1" value="调拨日期(从):"/>
+  <Text name="TransferDate2" value="调拨日期(至):"/>
+  <Text name="MaintainDate1" value="报修日期(从):"/>
+  <Text name="MaintainDate2" value="报修日期(至):"/>
+  <Text name="BorrowDate1" value="借用日期(从):"/>
+  <Text name="BorrowDate2" value="借用日期(至):"/>
+  <Text name="ScrapDate1" value="报废日期(从):"/>
+  <Text name="ScrapDate2" value="报废日期(至):"/>
+  <Text name="PurchaseDate1" value="采购日期(从):"/>
+  <Text name="PurchaseDate2" value="采购日期(至):"/>
+  <Text name="RemindDays" value="提醒天数"/>
+  <Text name="Message" value="信息"/>
+  <Text name="LogDate1" value="开始时间"/>
+  <Text name="LogDate2" value="结束时间"/>
+</layout>

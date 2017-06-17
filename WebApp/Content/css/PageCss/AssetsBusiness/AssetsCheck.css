@@ -1,0 +1,80 @@
+﻿.labelAssetsCheckList
+{
+	width:75px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsCheckListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsCheckEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsCheckEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsCheckEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.AssetsCheckEntryColumn3
+{
+	width:220px;
+	float:left;
+}

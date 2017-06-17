@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="approver"  caption="审批人"  index="approver" align="Left" hidden="false"  width="80"/>
+  <Header name="approveState" caption="审批状态"  index="approveState" align="Left" hidden="false" width="80"/>
+  <Header name="approveMind" caption="审批意见"  index="approveMind" align="Left" hidden="false" width="150"/>
+  <Header name="approveLevel" caption="审批级数"  index="approveLevel" align="Left" hidden="false" width="150"/>
+  <Header name="seqno" caption="审批次数"  index="seqno" align="Left" hidden="false" width="150"/>
+</layout>

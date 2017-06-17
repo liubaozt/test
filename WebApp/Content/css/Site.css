@@ -1,0 +1,131 @@
+
+
+
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+body
+{
+    font-size: 8pt;
+    font-family: "ËÎÌו";
+}
+
+form
+{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+table
+{
+    font-size: 9pt;
+    font-family: "ËÎÌו";
+}
+
+fieldset
+{
+    margin: 0.1em 0.1em;
+    padding: 0.5em 0.8em 0 0.8em;
+    border: 1px solid #a6c9e2;
+}
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+.display-label, editor-label, .display-field, .editor-field
+{
+    margin: 0.5em 0.2em;
+    height: 22px;
+    line-height: 22px;
+}
+
+.text-box
+{
+    width: 30em;
+}
+
+.text-box.multi-line
+{
+    height: 6.5em;
+}
+
+.tri-state
+{
+    width: 6em;
+}
+
+
+
+.myflowbg
+{
+    background: url(../images/bg.png);
+    background-repeat: repeat;
+}
+
+.indexrightbg
+{
+    background: url(../images/rightbg.png);
+    background-repeat: repeat;
+}
+
+.indexlogo
+{
+   float: left;
+   padding: 10px  5px 3px 6px;
+   height:58px;
+}
+
+.labelApproveEntry
+{
+    width: 70px;
+    float: left;
+    text-align: left;
+}
+.textApproveEntry
+{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+.autoNoButton
+{
+    width: 16px;
+    height: 21px;
+    vertical-align: bottom;
+    float: left;
+    text-align: left;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#info_bar {position:absolute; top:3px; right:10px; z-index:23; zoom:1; color:#fff; font-size: 10pt;  font-family: "ËÎÌו";}
+a.white:link, a.white:visited {color:#fff; text-decoration:none; font-weight:bold;}
+a.white:hover, a.white:active {color:#EE9A00;}

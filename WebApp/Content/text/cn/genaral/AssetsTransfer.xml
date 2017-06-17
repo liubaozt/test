@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsTransferList" value="资产移动一览表"/>
+  <Text name="AssetsTransferStayList" value="移动资产"/>
+  <Text name="AssetsTransferId" value="资产移动："/>
+  <Text name="AssetsTransferNo" value="移动编号："/>
+  <Text name="AssetsTransferName" value="移动名称："/>
+  <Text name="TransferDate" value="移动时间："/>
+</layout>

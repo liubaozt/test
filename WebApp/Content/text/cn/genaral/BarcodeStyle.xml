@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="BarcodeStyleList" value="样式一览表"/>
+  <Text name="BarcodeStyleId" value="样式："/>
+  <Text name="BarcodeStyleName" value="样式名称："/>
+  <Text name="IsDefaultStyle" value="默认样式"/>
+</layout>

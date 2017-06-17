@@ -1,0 +1,138 @@
+﻿.labelAssetsList
+{
+	width:85px;
+	float:left;
+	text-align:left;
+}
+.labelAssetsListCascadeDelete
+{
+	width:60px;
+	float:left;
+	text-align:right;
+}
+.textAssetsList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsList
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsList
+{
+    LEFT: 80px;
+	width:84px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsListColumn2
+{
+	width:220px;
+	float:left;
+}
+.AssetsListColumn3
+{
+	width:220px;
+	float:left;
+}
+.AssetsListColumn4
+{
+	width:200px;
+	float:left;
+}
+.labelAssetsEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsEntry
+{
+	width:180px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsEntry
+{
+	width:152px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsEntry
+{
+	width:184px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsEntry
+{
+    LEFT: 80px;
+	width:146px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsEntry
+{
+    LEFT: 80px;
+	width:135px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsEntry
+{
+	width:168px;
+	float:left;
+	text-align:left;
+}
+.AssetsEntryColumn1
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn2
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn3
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn4
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn5
+{
+	width:150px;
+	float:left;
+}
+.AssetsEntryColumn6
+{
+	float:left;
+}

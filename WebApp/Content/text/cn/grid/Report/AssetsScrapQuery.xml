@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产报废信息表"/>
+  <columnLayout>
+    <Header name="AssetsScrapNo"  caption="报废编码"  index="AssetsScrapNo" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsScrapName"  caption="报废名称"  index="AssetsScrapName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="100"  />
+    <Header name="DepartmentId" caption="部门" index="DepartmentId" align="Left" hidden="false"  width="100"  />
+    <Header name="ScrapTypeId" caption="报废方式" index="ScrapTypeId" align="Left" hidden="false"  width="100"  />
+    <Header name="ScrapDate" caption="报废日期" index="ScrapDate" align="Center" hidden="false"  width="100"  />
+    <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

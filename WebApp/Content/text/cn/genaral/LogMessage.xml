@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="LogLogin" value="登录了系统"/>
+  <Text name="LogAssetsAdd" value="新增了资产：编号[{0}],名称[{1}],条码[{2}]"/>
+  <Text name="LogAssetsModified" value="修改了资产：编号[{0}],名称[{1}],条码[{2}]"/>
+  <Text name="LogAssetsDelete" value="删除了资产：编号[{0}],名称[{1}],条码[{2}]"/>
+  <Text name="LogAssetsImport" value="导入了资产：编号[{0}],名称[{1}],条码[{2}]"/>
+</layout>

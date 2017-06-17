@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="StoreSiteList" value="保管场所一览表"/>
+  <Text name="StoreSiteSelect" value="保管场所选择"/>
+  <Text name="StoreSiteId" value="保管场所："/>
+  <Text name="StoreSiteNo" value="保管场所编码："/>
+  <Text name="StoreSiteName" value="保管场所名称："/>
+  <Text name="StoreSiteParentId" value="上级场所："/>
+</layout>

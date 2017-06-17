@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="EquityOwnerList" value="产权归属一览表"/>
+  <Text name="EquityOwnerId" value="产权归属："/>
+  <Text name="EquityOwnerNo" value="产权归属编码："/>
+  <Text name="EquityOwnerName" value="产权归属名称："/>
+</layout>

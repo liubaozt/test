@@ -1,0 +1,58 @@
+﻿.labelAutoPeriodList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAutoPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAutoPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAutoPeriodList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AutoPeriodListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AutoPeriodListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAutoPeriodEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAutoPeriodEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAutoPeriodEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAutoPeriodEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

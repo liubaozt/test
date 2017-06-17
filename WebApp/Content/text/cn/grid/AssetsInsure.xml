@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="assetsInsureId" caption="保险主键" index="assetsInsureId" align="Left" hidden="true"  width="100"  />
+  <Header name="assetsInsureNo"  caption="保险编号"  index="assetsInsureNo" align="Left" hidden="false"  width="100"/>
+  <Header name="assetsInsureName" caption="保险名称"  index="assetsInsureName" align="Left" hidden="false" width="150"/>
+  <Header name="createId" caption="制单人" index="createId" align="Left" hidden="false"  width="100"/>
+  <Header name="createTime" caption="制单时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+  <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+  <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+  <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+</layout>

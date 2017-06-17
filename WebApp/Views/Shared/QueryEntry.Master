@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Base.Master" Inherits="System.Web.Mvc.ViewMasterPage<BaseCommon.Models.QueryEntryViewModel>" %>
+
+<%@ Import Namespace="BaseControl.HtmlHelpers" %>
+<%@ Import Namespace="BaseCommon.Basic" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <script type="text/javascript">
+
+        function QueryReport() {
+            var pageId = '<%=Model.PageId %>';
+            var formId = '<%=Model.FormId %>';
+            var gridId = '<%=Model.EntryGridId %>';
+            var obj = $('#' + formId + pageId).serializeObject();
+            var formvar = JSON.stringify(obj);
+            $('#FormVar' + pageId).val(formvar);
+            $('#' + gridId + pageId).jqGrid('setGridParam', { postData: { formVar: formvar} })
+            jQuery('#' + gridId + pageId).trigger('reloadGrid');
+        }
+
+        $(document).ready(function () {
+            //#region 公共变量
+            var pageId = '<%=Model.PageId %>';
+            var formId = '<%=Model.FormId %>';
+            var gridId = '<%=Model.EntryGridId %>';
+            var exportUrl = '<%= Url.Action("ExcelExport")%>';
+            var printUrl = '<%= Url.Action("ExcelPrint")%>';
+            //#endregion 公共变量
+
+            $('#' + formId + "Var" + pageId).attr('target', '_blank');
+            $('#' + formId + "Var" + pageId).attr('method', 'post');
+            $('#' + formId + "Var" + pageId).attr('action', ' <%=Url.Action("ExcelPrint")%> ');
+
+            $(':input').change(function () {
+                $('#' + 'btnQuery' + pageId).attr('disabled', false);
+            });
+
+            //#region 用户操作
+
+            $('#btnExport' + pageId).click(function () {
+                //                var obj = $('#' + formId + pageId).serializeObject();
+                //                var formvar = JSON.stringify(obj);
+                var formvar = $('#FormVar' + pageId).val();
+                location.href = exportUrl + "?formvar=" + formvar;
+
+            });
+            $('#btnPrint' + pageId).click(function () {
+                //                var obj = $('#' + formId + pageId).serializeObject();
+                //                var formvar = JSON.stringify(obj);
+                //                var formvar = $('#FormVar' + pageId).val();
+                //                $.ajax({
+                //                    type: 'post',
+                //                    url: printUrl,
+                //                    data: { formvar: formvar },
+                //                    success: function (jsonObj) {
+                //                        if (jsonObj != "1") {
+                //                            AppMessage(pageId, '<%=AppMember.AppText["MessageTitle"]%>', jsonObj, 'error', function () { });
+                //                        }
+                //                    }
+                //                });
+                $('#' + formId + "Var" + pageId).submit();
+            });
+            //#endregion 用户操作
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <fieldset>
+        <%:Html.AppBeginForm(Model.PageId, Model.FormId)%>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <%:Html.AppHiddenFor(m => m.FormMode,Model.PageId) %>
+        <%:Html.AppEndForm() %>
+    </fieldset>
+    <%:Html.AppReportGridFor(this.Url, Model.PageId,Model.FormId, Model.EntryGridId,  Url.Action("EntryGridData"), Model.EntryGridLayout, Model.GridHeight)%>
+    <br />
+    <asp:ContentPlaceHolder ID="ButtonContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <%:Html.AppNormalButton(Model.PageId, "btnQuery", AppMember.AppText["BtnQuery"])%>
+    <%:Html.AppNormalButton(Model.PageId, "btnExport", AppMember.AppText["BtnExport"])%>
+    <%:Html.AppNormalButton(Model.PageId, "btnPrint", AppMember.AppText["BtnPrint"])%>
+    <%-- <%:Html.AppLinkButton(Model.PageId, "btnExport", AppMember.AppText["BtnExport"], Model.ExportUrl, Model.ViewTitle)%>--%>
+    <%-- <%:Html.AppNormalButton(Model.PageId, "btnExport", AppMember.AppText["BtnExport"], Model.ExportUrl, Model.FormId)%>--%>
+    <%:Html.AppHiddenFor(m => m.PageId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ViewTitle,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.Message, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.HasError, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ExportUrl, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.FormId, Model.PageId)%>
+    <%:Html.AppBeginForm(Model.PageId, Model.FormId+"Var")%>
+    <%:Html.AppHiddenFor(m => m.FormVar, Model.PageId)%>
+    <%:Html.AppEndForm() %>
+</asp:Content>

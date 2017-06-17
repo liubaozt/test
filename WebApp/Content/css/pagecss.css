@@ -1,0 +1,3604 @@
+.labelAssetsList
+{
+	width:85px;
+	float:left;
+	text-align:left;
+}
+.labelAssetsListCascadeDelete
+{
+	width:60px;
+	float:left;
+	text-align:right;
+}
+.textAssetsList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsList
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsList
+{
+    LEFT: 80px;
+	width:84px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsListColumn2
+{
+	width:220px;
+	float:left;
+}
+.AssetsListColumn3
+{
+	width:220px;
+	float:left;
+}
+.AssetsListColumn4
+{
+	width:200px;
+	float:left;
+}
+.labelAssetsEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsEntry
+{
+	width:180px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsEntry
+{
+	width:152px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsEntry
+{
+	width:184px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsEntry
+{
+    LEFT: 80px;
+	width:146px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsEntry
+{
+    LEFT: 80px;
+	width:135px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsEntry
+{
+	width:168px;
+	float:left;
+	text-align:left;
+}
+.AssetsEntryColumn1
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn2
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn3
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn4
+{
+	width:310px;
+	float:left;
+}
+.AssetsEntryColumn5
+{
+	width:150px;
+	float:left;
+}
+.AssetsEntryColumn6
+{
+	float:left;
+}
+.labelAssetsBorrowList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsBorrowListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsBorrowEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsBorrowEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsBorrowEntry
+{
+    LEFT: 80px;
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsBorrowEntry
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsBorrowEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsCheckList
+{
+	width:75px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsCheckListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsCheckEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsCheckEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsCheckEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.AssetsCheckEntryColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsDepreciationList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsDepreciationList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsDepreciationList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsDepreciationList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsDepreciationListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsDepreciationListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsDepreciationEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsDepreciationEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsDepreciationEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsDepreciationEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsDepreciationEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsDepreciationEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsInsureList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsInsureList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsInsureList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsInsureList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsInsureListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsInsureListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsInsureEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsInsureEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsInsureEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsInsureEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsInsureEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsInsureEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsInsureEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsLeaseList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsLeaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsLeaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsLeaseList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsLeaseListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsLeaseListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsLeaseEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsLeaseEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsLeaseEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsLeaseEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsLeaseEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsLeaseEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsLeaseEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsMaintainList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMaintainListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsMaintainEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsMaintainEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMaintainEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsMergeList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMergeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsMergeEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsMergeEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMergeEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsPurchaseList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsPurchaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsPurchaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsPurchaseList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsPurchaseListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsPurchaseListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsPurchaseEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsPurchaseEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsPurchaseEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsPurchaseEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsPurchaseEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsPurchaseEntryColumn1
+{
+	width:240px;
+	float:left;
+}
+.AssetsPurchaseEntryColumn2
+{
+	width:240px;
+	float:left;
+}
+.AssetsPurchaseEntryColumn2
+{
+	width:240px;
+	float:left;
+}
+.labelAssetsReturnList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsReturnList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsReturnList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsReturnEntry
+{
+    LEFT: 80px;
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsReturnEntry
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsReturnList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsReturnListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsReturnListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsReturnEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsReturnEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsReturnEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsReturnEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsReturnEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsReturnEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsReturnEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsScrapList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsScrapListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsScrapEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsScrapEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsScrapEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsSellList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSellList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSellList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSellList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsSellListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSellListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsSellEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSellEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsSellEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSellEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSellEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSellEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSellEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsSplitList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSplitList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSplitListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsSplitEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsSplitEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSplitEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSplitEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsTransferList
+{
+	width:85px;
+	float:left;
+	text-align:left;
+}
+.textAssetsTransferList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTransferList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTransferList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsTransferListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsTransferListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsTransferEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.AutoNoButtonAssetsTransferEntry
+{
+	width:16px;
+	height:21px;
+	vertical-align:bottom;
+	float:left;
+	text-align:left;
+	margin: 0 0;
+	padding: 0 0;
+}
+.textAssetsTransferEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsTransferEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTransferEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsTransferEntry
+{
+    LEFT: 80px;
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsTransferEntry
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTransferEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsTransferEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsTransferEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+
+.labelBarcodePrintEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.labelBarcodePrintStyle
+{
+	width:50px;
+	float:left;
+	text-align:left;
+}
+.textBarcodePrintEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectBarcodePrintEntry
+{
+	width:104px;
+	float:left;
+	text-align:left;
+}
+.dialogBarcodePrintEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.BarcodePrintEntryColumn1
+{
+	width:200px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.BarcodePrintEntryColumn2
+{
+	width:200px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.BarcodePrintEntryColumn3
+{
+	width:200px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.labelMonthRecordList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textMonthRecordList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectMonthRecordList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogMonthRecordList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.MonthRecordListColumn1
+{
+	width:220px;
+	float:left;
+}
+.MonthRecordListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelMonthRecordEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textMonthRecordEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectMonthRecordEntry
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogMonthRecordEntry
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.MonthRecordEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.MonthRecordEntryColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAccountSubjectList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAccountSubjectList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAccountSubjectList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAccountSubjectList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AccountSubjectListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AccountSubjectListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAccountSubjectEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAccountSubjectEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAccountSubjectEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAccountSubjectEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelAssetsClassList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsClassList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsClassList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsClassList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsClassListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsClassListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsClassEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsClassEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsClassEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsClassEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelAssetsTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTypeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsTypeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsTypeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsTypeEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsTypeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTypeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTypeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelAssetsUsesList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsUsesList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsUsesList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsUsesList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsUsesListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsUsesListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsUsesEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textAssetsUsesEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsUsesEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsUsesEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelAutoPeriodList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAutoPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAutoPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAutoPeriodList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AutoPeriodListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AutoPeriodListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAutoPeriodEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAutoPeriodEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAutoPeriodEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAutoPeriodEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelCustomerList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textCustomerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectCustomerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogCustomerList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.CustomerListColumn1
+{
+	width:220px;
+	float:left;
+}
+.CustomerListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelCustomerEntry
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textCustomerEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectCustomerEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogCustomerEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelDepreciationRuleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textDepreciationRuleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectDepreciationRuleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogDepreciationRuleList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.DepreciationRuleListColumn1
+{
+	width:220px;
+	float:left;
+}
+.DepreciationRuleListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelDepreciationRuleEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textDepreciationRuleEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectDepreciationRuleEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogDepreciationRuleEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelEquityOwnerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textEquityOwnerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectEquityOwnerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogEquityOwnerList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.EquityOwnerListColumn1
+{
+	width:220px;
+	float:left;
+}
+.EquityOwnerListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelEquityOwnerEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textEquityOwnerEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectEquityOwnerEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogEquityOwnerEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelFiscalPeriodList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textFiscalPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalPeriodList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.FiscalPeriodListColumn1
+{
+	width:220px;
+	float:left;
+}
+.FiscalPeriodListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelFiscalPeriodEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textFiscalPeriodEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalPeriodEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalPeriodEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelFiscalYearList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textFiscalYearList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalYearList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalYearList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.FiscalYearListColumn1
+{
+	width:220px;
+	float:left;
+}
+.FiscalYearListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelFiscalYearEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textFiscalYearEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalYearEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalYearEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelProjectManageList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textProjectManageList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectProjectManageList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogProjectManageList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.ProjectManageListColumn1
+{
+	width:220px;
+	float:left;
+}
+.ProjectManageListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelProjectManageEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textProjectManageEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectProjectManageEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogProjectManageEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelPurchaseTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textPurchaseTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectPurchaseTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogPurchaseTypeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.PurchaseTypeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.PurchaseTypeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelPurchaseTypeEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textPurchaseTypeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectPurchaseTypeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogPurchaseTypeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelScrapTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textScrapTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectScrapTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogScrapTypeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.ScrapTypeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.ScrapTypeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelScrapTypeEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textScrapTypeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectScrapTypeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogScrapTypeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelStoreSiteList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textStoreSiteList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectStoreSiteList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogStoreSiteList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.StoreSiteListColumn1
+{
+	width:220px;
+	float:left;
+}
+.StoreSiteListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelStoreSiteEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textStoreSiteEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectStoreSiteEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogStoreSiteEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelSupplierList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textSupplierList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectSupplierList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogSupplierList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.SupplierListColumn1
+{
+	width:220px;
+	float:left;
+}
+.SupplierListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelSupplierEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textSupplierEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectSupplierEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogSupplierEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelUnitList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textUnitList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectUnitList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogUnitList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.UnitListColumn1
+{
+	width:220px;
+	float:left;
+}
+.UnitListColumn2
+{
+	width:220px;
+	float:left;
+}
+.UnitListColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelUnitEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textUnitEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectUnitEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogUnitEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelAuthorityEntry
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.labelIsUserAuthorityEntry
+{
+	width:200px;
+	float:left;
+	text-align:left;
+}
+.textAuthorityEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAuthorityEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAuthorityEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.checkboxAuthorityEntry
+{
+	float:left;
+	text-align:left;
+}
+.AuthorityEntryColumn1
+{
+	width:200px;
+	float:left;
+}
+.AuthorityEntryColumn2
+{
+	width:200px;
+	float:left;
+}
+.labelBarcodeStyleList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textBarcodeStyleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectBarcodeStyleList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogBarcodeStyleList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.BarcodeStyleListColumn1
+{
+	width:220px;
+	float:left;
+}
+.BarcodeStyleListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelBarcodeStyleEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textBarcodeStyleEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectBarcodeStyleEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogBarcodeStyleEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelCompanyList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textCompanyList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectCompanyList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogCompanyList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.CompanyListColumn1
+{
+	width:220px;
+	float:left;
+}
+.CompanyListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelCompanyEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textCompanyEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectCompanyEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogCompanyEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelDepartmentList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textDepartmentList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectDepartmentList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogDepartmentList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.DepartmentListColumn1
+{
+	width:200px;
+	float:left;
+}
+.DepartmentListColumn2
+{
+	width:200px;
+	float:left;
+}
+.DepartmentListColumn3
+{
+	width:200px;
+	float:left;
+}
+.labelDepartmentEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textDepartmentEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectDepartmentEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogDepartmentEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelGroupList
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textGroupList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectGroupList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogGroupList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.GroupListColumn1
+{
+	width:220px;
+	float:left;
+}
+.GroupListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelGroupEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textGroupEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectGroupEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogGroupEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelPasswordModifiyEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textPasswordModifiyEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectPasswordModifiyEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogPasswordModifiyEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelPostList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textPostList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectPostList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogPostList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.PostListColumn1
+{
+	width:220px;
+	float:left;
+}
+.PostListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelPostEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textPostEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectPostEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogPostEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelSetBooksList
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textSetBooksList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectSetBooksList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogSetBooksList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.SetBooksListColumn1
+{
+	width:220px;
+	float:left;
+}
+.SetBooksListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelSetBooksEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textSetBooksEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectSetBooksEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogSetBooksEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.labelSystemLog
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.textSystemLog
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectSystemLog
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogSystemLog
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.SystemLogColumn1
+{
+	width:220px;
+	float:left;
+}
+.SystemLogColumn2
+{
+	width:220px;
+	float:left;
+}
+.SystemLogColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelUserList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.labelGroupUserList
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.textUserList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectUserList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogUserList
+{
+	width:89px;
+	float:left;
+	text-align:left;
+}
+.UserListColumn1
+{
+	width:220px;
+	float:left;
+}
+.UserListColumn2
+{
+	width:220px;
+	float:left;
+}
+.UserListColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelUserEntry
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textUserEntry
+{
+	width:180px;
+	float:left;
+	text-align:left;
+}
+.selectUserEntry
+{
+	width:184px;
+	float:left;
+	text-align:left;
+}
+.dialogUserEntry
+{
+	width:168px;
+	float:left;
+	text-align:left;
+}
+.labelWorkFlowList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textWorkFlowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectWorkFlowList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogWorkFlowList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.WorkFlowListColumn1
+{
+	width:220px;
+	float:left;
+}
+.WorkFlowListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelWorkFlowEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textWorkFlowEntry
+{
+	width:152px;
+	float:left;
+	text-align:left;
+}
+.selectWorkFlowEntry
+{
+	width:164px;
+	float:left;
+	text-align:left;
+}
+.dialogWorkFlowEntry
+{
+	width:168px;
+	float:left;
+	text-align:left;
+}
+.WorkFlowEntryColumn1
+{
+	width:280px;
+	float:left;
+}
+.WorkFlowEntryColumn2
+{
+	width:280px;
+	float:left;
+}
+.WorkFlowEntryColumn3
+{
+	width:280px;
+	float:left;
+}
+.labelAssetsBorrowReturnReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowReturnReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowReturnReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowReturnReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowReturnReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsBorrowReturnReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsBorrowReturnReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsBorrowReturnReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsBorrowReturnReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsBorrowReturnReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsBorrowReturnReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsBorrowReturnReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsChangeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsChangeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsChangeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsChangeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsChangeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsChangeReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.AssetsChangeReportColumn3
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsCheckReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsCheckReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsCheckReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsCheckReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsClassChangeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsClassChangeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsClassChangeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsClassChangeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsClassChangeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsClassChangeReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsDepreciationReport
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsDepreciationReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsDepreciationReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsDepreciationReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsDepreciationReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsDepreciationReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsDepreciationReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsDepreciationReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsDepreciationReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsDepreciationReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsDepreciationReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsDepreciationReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsMaintainReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsMaintainReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.AssetsMaintainReportColumn3
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsMaintainReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMaintainReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMaintainReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMaintainReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMaintainReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsMaintainReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsMergeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsMergeReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsMergeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsMergeReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsScrapReport
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapReport
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapReport
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapReport
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapReportColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsScrapReportColumn2
+{
+	width:220px;
+	float:left;
+}
+.AssetsScrapReportColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsScrapReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsScrapReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsScrapReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsScrapReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsScrapReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsScrapReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsSplitReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitReport
+{
+	width:126px;
+	float:left;
+	text-align:left;    
+}
+.dialogAssetsSplitReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsSplitReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.AssetsSplitReportColumn3
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsSplitReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSplitReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSplitReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSplitReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSplitReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsSplitReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsTransferReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsTransferReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTransferReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTransferReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsTransferReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsTransferReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.AssetsTransferReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelAssetsTransferReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsTransferReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTransferReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTransferReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsTransferReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsTransferReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.labelPlotReport
+{
+	width:50px;
+	float:left;
+	text-align:left;
+}
+.textPlotReport
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectPlotReport
+{
+	width:106px;
+	float:left;
+	text-align:left;
+}
+.dialogPlotReport
+{
+	width:88px;
+	float:left;
+	text-align:left;
+}
+.PlotReportColumn1
+{
+	width:200px;
+	float:left;
+}
+.PlotReportColumn2
+{
+	width:200px;
+	float:left;
+}
+.labelUpcomingGuaranteeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textUpcomingGuaranteeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectUpcomingGuaranteeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogUpcomingGuaranteeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.UpcomingGuaranteeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.UpcomingGuaranteeReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.UpcomingGuaranteeReportColumn3
+{
+	width:250px;
+	float:left;
+}
+.labelUpcomingScrapReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textUpcomingScrapReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectUpcomingScrapReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogUpcomingScrapReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.UpcomingScrapReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.UpcomingScrapReportColumn2
+{
+	width:250px;
+	float:left;
+}
+.UpcomingScrapReportColumn3
+{
+	width:250px;
+	float:left;
+}

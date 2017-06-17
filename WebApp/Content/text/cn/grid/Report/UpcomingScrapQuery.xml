@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="待报废资产表"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="100"  />
+    <Header name="DepartmentId" caption="部门" index="DepartmentId" align="Left" hidden="false"  width="100"  />
+    <Header name="StoreSiteId" caption="存放地点" index="StoreSiteId" align="Left" hidden="false"  width="100"  />
+    <Header name="PurchaseDate" caption="入库日期"  index="PurchaseDate" align="Center" hidden="false" width="100" />
+    <Header name="DurableYears" caption="折旧年限"  index="DurableYears" align="right" hidden="false" width="80"/>
+    <Header name="EndDate" caption="终止折旧日期"  index="EndDate" align="Center" hidden="false" width="100" />
+    <Header name="AssetsState" caption="资产状态"  index="AssetsState" align="Left" hidden="false" width="100"/>
+  </columnLayout>
+</gridLayout>

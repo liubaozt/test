@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsLeaseId" value="资产租赁："/>
+  <Text name="AssetsLeaseNo" value="租赁编号："/>
+  <Text name="AssetsLeaseName" value="租赁名称："/>
+  <Text name="LeaseDate" value="租赁时间："/>
+</layout>

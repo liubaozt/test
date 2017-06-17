@@ -1,0 +1,34 @@
+﻿.labelAssetsCheckReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsCheckReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsCheckReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsCheckReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsCheckReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsCheckReportColumn2
+{
+	width:250px;
+	float:left;
+}

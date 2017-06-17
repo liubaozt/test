@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsScrapList" value="资产报废一览表"/>
+  <Text name="AssetsScrapStayList" value="报废资产"/>
+  <Text name="AssetsScrapId" value="资产报废："/>
+  <Text name="AssetsScrapNo" value="报废编号："/>
+  <Text name="AssetsScrapName" value="报废名称："/>
+</layout>

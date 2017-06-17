@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产折旧信息表"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="FiscalYearId" caption="会计年度"  index="FiscalYearId" align="Center" hidden="false" width="70"/>
+    <Header name="FiscalPeriodId" caption="会计期间"  index="FiscalPeriodId" align="Center" hidden="false" width="70"/>
+    <Header name="AssetsValue"  caption="资产原值"  index="AssetsValue" align="right" hidden="false"  width="80" />
+    <Header name="AssetsNetValue"  caption="资产净值"  index="AssetsNetValue" align="right" hidden="false"  width="80" />
+    <Header name="DepreciationAmount" caption="本期折旧"  index="DepreciationAmount" align="right" hidden="false" width="80"/>
+    <Header name="DurableYears" caption="折旧年限" index="DurableYears" align="right" hidden="false"  width="70"  />
+    <Header name="RemainMonth" caption="剩余折旧月数" index="RemainMonth" align="right" hidden="false"  width="90"  />
+  </columnLayout>
+</gridLayout>

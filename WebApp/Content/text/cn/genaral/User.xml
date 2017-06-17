@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="UserList" value="用户一览表"/>
+  <Text name="User" value="用户"/>
+  <Text name="UserId" value="用户："/>
+  <Text name="UserNo" value="用户编码："/>
+  <Text name="UserName" value="用户名称："/>
+  <Text name="UserPwd" value="密码："/>
+  <Text name="Sex" value="性别："/>
+  <Text name="Tel" value="电话："/>
+  <Text name="Email" value="邮箱："/>
+  <Text name="Address" value="地址："/>
+  <Text name="Man" value="男"/>
+  <Text name="Women" value="女"/>
+</layout>

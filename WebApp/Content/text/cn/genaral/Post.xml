@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="PostList" value="职位一览表"/>
+  <Text name="PostId" value="职位："/>
+  <Text name="PostNo" value="职位编码："/>
+  <Text name="PostName" value="职位名称："/>
+</layout>

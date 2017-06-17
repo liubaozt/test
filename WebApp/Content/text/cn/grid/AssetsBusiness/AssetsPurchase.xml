@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产采购一览表"/>
+  <columnLayout>
+    <Header name="assetsPurchaseId" caption="资产采购主键" index="assetsPurchaseId" align="Left" hidden="true"  width="100"  />
+    <Header name="assetsPurchaseNo"  caption="采购编号"  index="assetsPurchaseNo" align="Left" hidden="false"  width="100"/>
+    <Header name="assetsPurchaseName" caption="采购主题"  index="assetsPurchaseName" align="Left" hidden="true" width="150"/>
+    <Header name="purchaseDate" caption="采购日期" index="purchaseDate" align="Center" hidden="false"  width="150"  />
+    <Header name="approveState" caption="审批状态"  index="approveState" align="Left" hidden="false" width="150"/>
+    <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+    <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+    <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+    <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+    <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+  </columnLayout>
+</gridLayout>

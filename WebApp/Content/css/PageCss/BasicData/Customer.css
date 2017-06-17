@@ -1,0 +1,58 @@
+﻿.labelCustomerList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textCustomerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectCustomerList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogCustomerList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.CustomerListColumn1
+{
+	width:220px;
+	float:left;
+}
+.CustomerListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelCustomerEntry
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textCustomerEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectCustomerEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogCustomerEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

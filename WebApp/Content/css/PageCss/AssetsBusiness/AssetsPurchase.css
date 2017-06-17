@@ -1,0 +1,80 @@
+﻿.labelAssetsPurchaseList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsPurchaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsPurchaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsPurchaseList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsPurchaseListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsPurchaseListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsPurchaseEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textAssetsPurchaseEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsPurchaseEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsPurchaseEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsPurchaseEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsPurchaseEntryColumn1
+{
+	width:240px;
+	float:left;
+}
+.AssetsPurchaseEntryColumn2
+{
+	width:240px;
+	float:left;
+}
+.AssetsPurchaseEntryColumn2
+{
+	width:240px;
+	float:left;
+}

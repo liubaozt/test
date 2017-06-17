@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Base.Master" Inherits="System.Web.Mvc.ViewMasterPage<BaseCommon.Models.ApproveListViewModel>" %>
+
+<%@ Import Namespace="BaseControl.HtmlHelpers" %>
+<%@ Import Namespace="BaseCommon.Basic" %>
+<%@ Import Namespace="BaseCommon.Data" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <fieldset>
+        <%:Html.AppBeginForm(Model.PageId, Model.FormId)%>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <%:Html.AppEndForm() %>
+    </fieldset>
+    <%:Html.AppGridFor(this.Url, Model.PageId, Model.FormId, Model.GridId, Model.GridUrl, Model.GridLayout,Model.GridPkField , Model.GridDbClickUrl, Model.ViewTitle,Model.GridHeight)%>
+    <%:Html.AppGridButtonSet(Model.AuthorityGridButton, Model.FormId, Model.GridPkField, Model.ViewTitle)%>
+    <%:Html.AppHiddenFor(m => m.PageId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ViewTitle, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ListMode, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.Message, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.HasError, Model.PageId)%>
+</asp:Content>

@@ -1,0 +1,75 @@
+﻿.labelAssetsInsureList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsInsureList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsInsureList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsInsureList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsInsureListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsInsureListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsInsureEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsInsureEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsInsureEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsInsureEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsInsureEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsInsureEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsInsureEntryColumn2
+{
+	width:220px;
+	float:left;
+}

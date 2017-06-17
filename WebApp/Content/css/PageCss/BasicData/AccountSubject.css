@@ -1,0 +1,58 @@
+﻿.labelAccountSubjectList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAccountSubjectList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAccountSubjectList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAccountSubjectList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AccountSubjectListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AccountSubjectListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAccountSubjectEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAccountSubjectEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAccountSubjectEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAccountSubjectEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

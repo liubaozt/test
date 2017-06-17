@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="TestId" caption="用户主键" index="TestId" align="Left" hidden="true"  width="100"  />
+  <Header name="UserId" caption="用户主键" index="UserId" align="Left" hidden="true"  width="100"  />
+  <Header name="UserNo"  caption="用户编号"  index="UserNo" align="Left" hidden="false"  width="100" editable="true" edittype="select" formatter="select" datasourceurl="DropList/UserDropList" />
+  <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150" editable="true"/>
+  <Header name="CreateTime" caption="创建时间"  index="CreateTime"  align="Center" hidden="false" width="150"  editable="true" formatter="date" />
+</layout>

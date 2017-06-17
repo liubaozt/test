@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8BB07C3-6C18-49DE-8C04-A763386E5823}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApp</RootNamespace>
+    <AssemblyName>WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Areas\AssetsBusiness\AssetsBusinessAreaRegistration.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsManageController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsScrapController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsTransferController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsMaintainController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsSellController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsLeaseController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsInsureController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsBorrowController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsReturnController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsSplitController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsMergeController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsDepreciationController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsCheckController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\BarcodePrintController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\MonthRecordController.cs" />
+    <Compile Include="Areas\AssetsBusiness\Controllers\AssetsPurchaseController.cs" />
+    <Compile Include="Areas\BasicData\BasicDataAreaRegistration.cs" />
+    <Compile Include="Areas\BasicData\Controllers\AssetsClassController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\AssetsTypeController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\AssetsUsesController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\CustomerController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\EquityOwnerController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\PurchaseTypeController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\ScrapTypeController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\SupplierController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\UnitController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\FiscalYearController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\FiscalPeriodController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\AccountSubjectController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\StoreSiteController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\ProjectManageController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\AutoPeriodController.cs" />
+    <Compile Include="Areas\BasicData\Controllers\DepreciationRuleController.cs" />
+    <Compile Include="Areas\BusinessCommon\BusinessCommonAreaRegistration.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\SystemLogController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\AuthorityController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\PostController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\TestController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\UserController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\GroupController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\DepartmentController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\WorkFlowController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\BarcodeStyleController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\ToolsController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\PasswordModifiyController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\CompanyController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\DataImportController.cs" />
+    <Compile Include="Areas\BusinessCommon\Controllers\SetBooksController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsChangeReportController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsClassPlotController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsScrapQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsTransferQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsMaintainQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsDepreciationQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsBorrowReturnQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsSplitQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsMergeQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsCheckQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\UpcomingScrapQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\UpcomingGuaranteeQueryController.cs" />
+    <Compile Include="Areas\Report\Controllers\StoreSiteAssetsPlotController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsClassIdlePlotController.cs" />
+    <Compile Include="Areas\Report\Controllers\AssetsQueryController.cs" />
+    <Compile Include="Areas\Report\ReportAreaRegistration.cs" />
+    <Compile Include="Controllers\CodeTableController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\AppRegisterModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForms\AssetsClassChangeReportView.aspx.cs">
+      <DependentUpon>AssetsClassChangeReportView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\AssetsClassChangeReportView.aspx.designer.cs">
+      <DependentUpon>AssetsClassChangeReportView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Report.Master.cs">
+      <DependentUpon>Report.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Report.Master.designer.cs">
+      <DependentUpon>Report.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebService\AutoTask.asmx.cs">
+      <DependentUpon>AutoTask.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebService\DataService.asmx.cs">
+      <DependentUpon>DataService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\AssetsBusiness\Views\AssetsCheck\UpLoad.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsManage\BatchDelete.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsManage\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsManage\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsManage\Cus_Simple_Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsScrap\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsScrap\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsTransfer\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsTransfer\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsMaintain\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsMaintain\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsSell\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsSell\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsLease\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsLease\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsInsure\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsInsure\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsBorrow\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsBorrow\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsReturn\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsReturn\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsSplit\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsSplit\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsMerge\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsMerge\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsDepreciation\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsCheck\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsCheck\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\BarcodePrint\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\BarcodePrint\LabelDefine.CAB" />
+    <Content Include="Areas\AssetsBusiness\Views\BarcodePrint\Print.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\BarcodePrint\Entry2.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\BarcodePrint\Entry3.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\MonthRecord\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\Shared\AssetsSelect.ascx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsPurchase\Entry.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\AssetsPurchase\List.aspx" />
+    <Content Include="Areas\AssetsBusiness\Views\Shared\PurchaseView.ascx" />
+    <Content Include="Areas\BasicData\Views\AssetsClass\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\AssetsClass\List.aspx" />
+    <Content Include="Areas\BasicData\Views\AssetsType\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\AssetsType\List.aspx" />
+    <Content Include="Areas\BasicData\Views\AssetsUses\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\AssetsUses\List.aspx" />
+    <Content Include="Areas\BasicData\Views\AutoPeriod\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\Customer\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\Customer\List.aspx" />
+    <Content Include="Areas\BasicData\Views\EquityOwner\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\EquityOwner\List.aspx" />
+    <Content Include="Areas\BasicData\Views\PurchaseType\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\PurchaseType\List.aspx" />
+    <Content Include="Areas\BasicData\Views\ScrapType\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\ScrapType\List.aspx" />
+    <Content Include="Areas\BasicData\Views\Shared\AccountSubjectSelect.ascx" />
+    <Content Include="Areas\BasicData\Views\Shared\AssetsClassSelect.ascx" />
+    <Content Include="Areas\BasicData\Views\Shared\StoreSiteSelect.ascx" />
+    <Content Include="Areas\BasicData\Views\Supplier\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\Supplier\List.aspx" />
+    <Content Include="Areas\BasicData\Views\Unit\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\Unit\List.aspx" />
+    <Content Include="Areas\BasicData\Views\FiscalYear\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\FiscalYear\List.aspx" />
+    <Content Include="Areas\BasicData\Views\FiscalPeriod\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\FiscalPeriod\List.aspx" />
+    <Content Include="Areas\BasicData\Views\AccountSubject\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\AccountSubject\List.aspx" />
+    <Content Include="Areas\BasicData\Views\StoreSite\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\StoreSite\List.aspx" />
+    <Content Include="Areas\BasicData\Views\ProjectManage\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\ProjectManage\List.aspx" />
+    <Content Include="Areas\BasicData\Views\DepreciationRule\Entry.aspx" />
+    <Content Include="Areas\BasicData\Views\DepreciationRule\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Shared\GroupSelect.ascx" />
+    <Content Include="Areas\BusinessCommon\Views\SystemLog\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Authority\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Group\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Group\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Post\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Post\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Shared\DepartmentSelect.ascx" />
+    <Content Include="Areas\BusinessCommon\Views\Test\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\DataImport\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\User\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\User\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Department\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Department\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\WorkFlow\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\WorkFlow\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\BarcodeStyle\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\BarcodeStyle\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Tools\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\PasswordModifiy\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Company\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\Company\List.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\SetBooks\Entry.aspx" />
+    <Content Include="Areas\BusinessCommon\Views\SetBooks\List.aspx" />
+    <Content Include="Areas\Report\Views\AssetsChangeReport\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsClassPlot\Index.aspx" />
+    <Content Include="Areas\Report\Views\AssetsQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsScrapQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsTransferQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsMaintainQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsDepreciationQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsBorrowReturnQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsSplitQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsMergeQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsCheckQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\Shared\ReportPrint.aspx" />
+    <Content Include="Areas\Report\Views\StoreSiteAssetsPlot\Index.aspx" />
+    <Content Include="Areas\Report\Views\UpcomingScrapQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\UpcomingGuaranteeQuery\Entry.aspx" />
+    <Content Include="Areas\Report\Views\AssetsClassIdlePlot\Index.aspx" />
+    <Content Include="Content\css\button\apply2.png" />
+    <Content Include="Content\css\button\blue.png" />
+    <Content Include="Content\css\button\btn2.png" />
+    <Content Include="Content\css\button\cross.png" />
+    <Content Include="Content\css\button\shade.png" />
+    <Content Include="Content\css\button\textfield_key.png" />
+    <Content Include="Content\css\jquery.jqplot.min.css" />
+    <Content Include="Content\css\login.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsBorrow.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsCheck.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsDepreciation.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsInsure.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsLease.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsMaintain.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\Assets.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsMerge.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsReturn.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsScrap.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsSell.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsSplit.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsTransfer.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\BarcodePrint.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\MonthRecord.css" />
+    <Content Include="Content\css\PageCss\AssetsBusiness\AssetsPurchase.css" />
+    <Content Include="Content\css\PageCss\BasicData\AccountSubject.css" />
+    <Content Include="Content\css\PageCss\BasicData\AssetsClass.css" />
+    <Content Include="Content\css\PageCss\BasicData\AssetsType.css" />
+    <Content Include="Content\css\PageCss\BasicData\AssetsUses.css" />
+    <Content Include="Content\css\PageCss\BasicData\Customer.css" />
+    <Content Include="Content\css\PageCss\BasicData\EquityOwner.css" />
+    <Content Include="Content\css\PageCss\BasicData\FiscalPeriod.css" />
+    <Content Include="Content\css\PageCss\BasicData\FiscalYear.css" />
+    <Content Include="Content\css\PageCss\BasicData\PurchaseType.css" />
+    <Content Include="Content\css\PageCss\BasicData\ScrapType.css" />
+    <Content Include="Content\css\PageCss\BasicData\StoreSite.css" />
+    <Content Include="Content\css\PageCss\BasicData\Supplier.css" />
+    <Content Include="Content\css\PageCss\BasicData\Unit.css" />
+    <Content Include="Content\css\PageCss\BasicData\ProjectManage.css" />
+    <Content Include="Content\css\PageCss\BasicData\AutoPeriod.css" />
+    <Content Include="Content\css\PageCss\BasicData\DepreciationRule.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\SystemLog.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\Group.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\Authority.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\BarcodeStyle.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\Department.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\Post.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\User.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\WorkFlow.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\PasswordModifiy.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\Company.css" />
+    <Content Include="Content\css\PageCss\BusinessCommon\SetBooks.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsBorrowReturnQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsCheckQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsChangeReport.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsDepreciationQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsMaintainQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsMergeQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsScrapQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsSplitQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsTransferQuery.css" />
+    <Content Include="Content\css\PageCss\Report\UpcomingScrapQuery.css" />
+    <Content Include="Content\css\PageCss\Report\UpcomingGuaranteeQuery.css" />
+    <Content Include="Content\css\PageCss\Report\PlotQuery.css" />
+    <Content Include="Content\css\PageCss\Report\AssetsQuery.css" />
+    <Content Include="Content\css\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Content\css\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Content\css\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Content\css\redmond\jquery-ui-1.8.18.custom.css" />
+    <Content Include="Content\css\redmond\ui.jqgrid.css" />
+    <Content Include="Content\css\tree\demo.css" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\1_close.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\1_open.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\2.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\3.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\4.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\5.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\6.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\7.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\8.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\diy\9.png" />
+    <Content Include="Content\css\tree\zTreeStyle\img\line_conn.gif" />
+    <Content Include="Content\css\tree\zTreeStyle\img\loading.gif" />
+    <Content Include="Content\css\tree\zTreeStyle\img\zTreeStandard.gif" />
+    <Content Include="Content\css\tree\zTreeStyle\img\zTreeStandard.png" />
+    <Content Include="Content\css\tree\zTreeStyle\zTreeStyle.css" />
+    <Content Include="Content\css\button\Button.css" />
+    <Content Include="Content\css\uploadify\browse-btn.png" />
+    <Content Include="Content\css\uploadify\img\uploadify-cancel.png" />
+    <Content Include="Content\css\uploadify\uploadify.css" />
+    <Content Include="Content\css\uploadify\uploadify.swf" />
+    <Content Include="Content\css\pagecss.css" />
+    <Content Include="Content\images\bg.png" />
+    <Content Include="Content\images\imgnull.jpg" />
+    <Content Include="Content\images\Login\137.png" />
+    <Content Include="Content\images\Login\bg.jpg" />
+    <Content Include="Content\images\Login\bg2.png" />
+    <Content Include="Content\images\Login\loading.gif" />
+    <Content Include="Content\images\Login\login-v2-load.png" />
+    <Content Include="Content\images\Login\Verify_code.png" />
+    <Content Include="Content\images\rightbg.png" />
+    <Content Include="Content\images\toplogo.png" />
+    <Content Include="Content\jatoolsPrinter\jatoolsPrinter.cab" />
+    <Content Include="Content\refDll\log4net.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\refDll\System.Data.SQLite.DLL">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\refDll\System.Data.SQLite.Linq.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\MonthRecord.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsPurchase.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\AssetsClass.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\Customer.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\EquityOwner.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\AutoPeriod.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\DepreciationRule.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\Company.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\SetBooks.xml" />
+    <Content Include="Content\text\cn\genaral\Globle.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\genaral\Login.xml" />
+    <Content Include="Content\text\cn\genaral\Message.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\genaral\BusinessCommon\Post.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\ScrapType.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\Supplier.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\User.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\Group.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\Department.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\WorkFlow.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\Unit.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\FiscalYear.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\FiscalPeriod.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\AccountSubject.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\AssetsType.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\PurchaseType.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\StoreSite.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\Assets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\text\cn\genaral\BasicData\AssetsUses.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsScrap.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsTransfer.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsMaintain.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsSell.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsLease.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsInsure.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsBorrow.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsReturn.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsSplit.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsMerge.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsCheck.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\BarcodeStyle.xml" />
+    <Content Include="Content\text\cn\genaral\AssetsBusiness\AssetsDepreciation.xml" />
+    <Content Include="Content\text\cn\genaral\Report\Report.xml" />
+    <Content Include="Content\text\cn\genaral\BasicData\ProjectManage.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\Tools.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\genaral\BusinessCommon\PasswordModifiy.xml" />
+    <Content Include="Content\text\cn\genaral\BusinessCommon\Authority.xml" />
+    <Content Include="Content\text\cn\genaral\AppRegister.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\genaral\LogMessage.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsCheckEntryActualView.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsMaintainEntryActualView.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\Assets_DepreciationRule.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\Cus_Simple_Assets.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\Cus_Simple_Assets_DepreciationRule.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\Cus_Simple_AssetsSelect.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\Cus_Simple_BarcodePrintEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsPurchase.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsPurchaseEntry.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\DepreciationRule.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\SystemLog.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\SetBooks.xml" />
+    <Content Include="Content\text\cn\grid\Common\DropDownGrid.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\IdPrefixStr.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsSelect.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\BorrowAssetsSelect.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsMaintainEntryActual.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsCheckEntryActual.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\BasicData\AssetsClass.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\AssetsType.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\Customer.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\EquityOwner.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\Post.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\PurchaseType.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\ScrapType.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\Supplier.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\User.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\Group.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\Test.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\Department.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\WorkFlow.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\BasicData\Unit.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\FiscalYear.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\BasicData\FiscalPeriod.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\AccountSubject.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\StoreSite.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\Assets.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\BasicData\AssetsUses.xml" />
+    <Content Include="Content\text\cn\grid\BusinessCommon\Company.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\BusinessCommon\DataImport.xml" />
+    <Content Include="Content\text\cn\grid\Common\AssetsApprove.xml" />
+    <Content Include="Content\text\cn\grid\Common\Approve.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsScrap.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsScrapEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsTransfer.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsTransferEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsMaintain.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsMaintainEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsSellEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsSell.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsLease.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsLeaseEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsInsure.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsInsureEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsBorrow.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsBorrowEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsReturn.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsReturnEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsSplit.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsSplitEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\SplitUpEntry.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsMerge.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsMergeEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\MergeUpEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\DepreciationEntry.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsCheck.xml" />
+    <Content Include="Content\text\cn\grid\AssetsBusiness\AssetsCheckEntry.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\BusinessCommon\BarcodeStyle.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\AssetsBusiness\BarcodePrintEntry.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsScrapQuery.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsTransferQuery.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsMaintainQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\Report\AssetsDepreciationQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\Report\AssetsBorrowReturnQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\Report\AssetsSplitQuery.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsMergeQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\Report\AssetsCheckQuery.xml" />
+    <Content Include="Content\text\cn\grid\BasicData\ProjectManage.xml" />
+    <Content Include="Content\text\cn\grid\Report\UpcomingScrapQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\text\cn\grid\Report\UpcomingGuaranteeQuery.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsClassChangeReport.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsDepartmentChangeReport.xml" />
+    <Content Include="Content\text\cn\grid\Report\AssetsStoreSiteChangeReport.xml" />
+    <Content Include="Content\uploads\assets\sys.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Global.asax" />
+    <Content Include="Content\css\Site.css" />
+    <Content Include="Scripts\used\app.customer.js" />
+    <Content Include="Scripts\used\btn.js" />
+    <Content Include="Scripts\used\grid.locale-cn.js" />
+    <Content Include="Scripts\used\jqplot\excanvas.min.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.barRenderer.min.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.canvasAxisLabelRenderer.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.canvasAxisTickRenderer.min.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.canvasTextRenderer.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.canvasTextRenderer.min.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.categoryAxisRenderer.min.js" />
+    <Content Include="Scripts\used\jqplot\jqplot.pointLabels.min.js" />
+    <Content Include="Scripts\used\jqplot\jquery.jqplot.min.js" />
+    <Content Include="Scripts\used\jqplot\jquery.min.js" />
+    <Content Include="Scripts\used\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\used\jquery-barcode-2.0.2.min.js" />
+    <Content Include="Scripts\used\jquery-ui-1.8.18.custom.min.js" />
+    <Content Include="Scripts\used\jquery.contextmenu.r2.js" />
+    <Content Include="Scripts\used\jquery.jqGrid.js" />
+    <Content Include="Scripts\used\jquery.jqGrid.min.js" />
+    <Content Include="Scripts\used\jquery.jqprint.js" />
+    <Content Include="Scripts\used\jquery.layout-latest.js" />
+    <Content Include="Scripts\used\jquery.layout.js" />
+    <Content Include="Scripts\used\jquery.PrintArea.js" />
+    <Content Include="Scripts\used\jquery.ui.datepicker-zh-CN.js" />
+    <Content Include="Scripts\used\jquery.uploadify.js" />
+    <Content Include="Scripts\used\jquery.uploadify.min.js" />
+    <Content Include="Scripts\used\json2.js" />
+    <Content Include="Scripts\used\tree\jquery.ztree.core-3.0.js" />
+    <Content Include="Scripts\used\tree\jquery.ztree.excheck-3.0.js" />
+    <Content Include="Scripts\used\workflow\img\16\barcode.png" />
+    <Content Include="Scripts\used\workflow\img\16\delete.gif" />
+    <Content Include="Scripts\used\workflow\img\16\end_event_cancel.png" />
+    <Content Include="Scripts\used\workflow\img\16\end_event_error.png" />
+    <Content Include="Scripts\used\workflow\img\16\end_event_terminate.png" />
+    <Content Include="Scripts\used\workflow\img\16\event.gif" />
+    <Content Include="Scripts\used\workflow\img\16\events_multiple.gif" />
+    <Content Include="Scripts\used\workflow\img\16\flow_sequence.png" />
+    <Content Include="Scripts\used\workflow\img\16\gateway_exclusive.png" />
+    <Content Include="Scripts\used\workflow\img\16\gateway_parallel.png" />
+    <Content Include="Scripts\used\workflow\img\16\new_event_listener.gif" />
+    <Content Include="Scripts\used\workflow\img\16\new_swimlane.gif" />
+    <Content Include="Scripts\used\workflow\img\16\new_timer.gif" />
+    <Content Include="Scripts\used\workflow\img\16\node_elements_multiple.gif" />
+    <Content Include="Scripts\used\workflow\img\16\picture.png" />
+    <Content Include="Scripts\used\workflow\img\16\start_event_empty.png" />
+    <Content Include="Scripts\used\workflow\img\16\swimlane.gif" />
+    <Content Include="Scripts\used\workflow\img\16\swimlanes_multiple.gif" />
+    <Content Include="Scripts\used\workflow\img\16\task_empty.png" />
+    <Content Include="Scripts\used\workflow\img\16\task_hql.png" />
+    <Content Include="Scripts\used\workflow\img\16\task_java.png" />
+    <Content Include="Scripts\used\workflow\img\16\task_sql.png" />
+    <Content Include="Scripts\used\workflow\img\16\task_wait.png" />
+    <Content Include="Scripts\used\workflow\img\16\text.png" />
+    <Content Include="Scripts\used\workflow\img\16\timer.gif" />
+    <Content Include="Scripts\used\workflow\img\16\timers_multiple.gif" />
+    <Content Include="Scripts\used\workflow\img\16\transitions_multiple.gif" />
+    <Content Include="Scripts\used\workflow\img\48\barcode.png" />
+    <Content Include="Scripts\used\workflow\img\48\end_event_cancel.png" />
+    <Content Include="Scripts\used\workflow\img\48\end_event_error.png" />
+    <Content Include="Scripts\used\workflow\img\48\end_event_terminate.png" />
+    <Content Include="Scripts\used\workflow\img\48\flow_sequence.png" />
+    <Content Include="Scripts\used\workflow\img\48\gateway_exclusive.png" />
+    <Content Include="Scripts\used\workflow\img\48\gateway_parallel.png" />
+    <Content Include="Scripts\used\workflow\img\48\picture.png" />
+    <Content Include="Scripts\used\workflow\img\48\start_event_empty.png" />
+    <Content Include="Scripts\used\workflow\img\48\task_empty.png" />
+    <Content Include="Scripts\used\workflow\img\48\task_hql.png" />
+    <Content Include="Scripts\used\workflow\img\48\task_java.png" />
+    <Content Include="Scripts\used\workflow\img\48\task_sql.png" />
+    <Content Include="Scripts\used\workflow\img\48\task_wait.png" />
+    <Content Include="Scripts\used\workflow\img\48\text.png" />
+    <Content Include="Scripts\used\workflow\img\bg.png" />
+    <Content Include="Scripts\used\workflow\img\save.gif" />
+    <Content Include="Scripts\used\workflow\img\select16.gif" />
+    <Content Include="Scripts\used\workflow\lib\raphael-min.js" />
+    <Content Include="Scripts\used\workflow\myflow.editors.js" />
+    <Content Include="Scripts\used\workflow\myflow.jpdl4.js" />
+    <Content Include="Scripts\used\workflow\myflow.js" />
+    <Content Include="Scripts\used\workflow\mylabel.barcode.js" />
+    <Content Include="Scripts\used\workflow\mylabel.js" />
+    <Content Include="Scripts\used\workflow\mylabel.editors.js" />
+    <Content Include="Views\Home\AppRegister.aspx" />
+    <Content Include="Views\Home\Error.aspx" />
+    <Content Include="Views\Home\GetMachineInfo.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\Login.aspx" />
+    <Content Include="Views\Home\NoAccess.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="WebService\AutoTask.asmx" />
+    <Content Include="WebService\DataService.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\text\en\genaral\" />
+    <Folder Include="Content\text\en\grid\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\BusinessCommon\Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseCommon\BaseCommon.csproj">
+      <Project>{10CF90B4-F130-4AD9-9B0B-07CB0885E5B3}</Project>
+      <Name>BaseCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseControl\BaseControl.csproj">
+      <Project>{18D3248C-0B90-41D4-AAD2-94FE5E98D57E}</Project>
+      <Name>BaseControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessCommon\BusinessCommon.csproj">
+      <Project>{3E078E4E-89E4-4A22-9783-763CDD2F29CD}</Project>
+      <Name>BusinessCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{5455E546-4BCB-4FC4-B2B6-4702EC4328D4}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebCommon\WebCommon.csproj">
+      <Project>{64CA0016-B3C5-4436-B37D-521124912C38}</Project>
+      <Name>WebCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\BasicData\Views\Web.config" />
+    <Content Include="Areas\AssetsBusiness\Views\Web.config" />
+    <Content Include="Views\Shared\Base.Master" />
+    <Content Include="Views\Shared\List.Master" />
+    <Content Include="Views\Shared\Entry.Master" />
+    <Content Include="Areas\Report\Views\Web.config" />
+    <None Include="Content\css\tree\zTreeStyle\img\diy\Thumbs.db" />
+    <None Include="Content\css\tree\zTreeStyle\img\Thumbs.db" />
+    <Content Include="Content\uploads\excel\模板.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\uploads\output.xls" />
+    <Content Include="Content\uploads\sqlite\PDA.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\uploads\sqlite\PrintKit.zip" />
+    <None Include="Scripts\used\workflow\img\16\Thumbs.db" />
+    <None Include="Scripts\used\workflow\img\48\Thumbs.db" />
+    <Content Include="Views\Shared\ApproveEntry.Master" />
+    <Content Include="Views\Shared\ApproveList.Master" />
+    <Content Include="WebForms\AssetsClassChangeReportView.aspx" />
+    <Content Include="WebForms\Report.Master" />
+    <Content Include="Views\Shared\ReportEntry.Master" />
+    <Content Include="Views\Shared\QueryEntry.Master" />
+    <Content Include="Views\Shared\Plot.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebForms\Report1.rdlc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52728</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

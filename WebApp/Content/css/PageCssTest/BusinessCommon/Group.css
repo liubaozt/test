@@ -1,0 +1,58 @@
+﻿.labelGroupList
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textGroupList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectGroupList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogGroupList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.GroupListColumn1
+{
+	width:220px;
+	float:left;
+}
+.GroupListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelGroupEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textGroupEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectGroupEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogGroupEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

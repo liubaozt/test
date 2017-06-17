@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="FiscalPeriodList" value="会计期间一览表"/>
+  <Text name="FiscalPeriodId" value="会计期间："/>
+  <Text name="FiscalPeriodName" value="会计期间："/>
+</layout>

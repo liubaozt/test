@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsSplitId" value="资产拆分："/>
+  <Text name="AssetsSplitNo" value="拆分编号："/>
+  <Text name="AssetsSplitName" value="拆分名称："/>
+</layout>

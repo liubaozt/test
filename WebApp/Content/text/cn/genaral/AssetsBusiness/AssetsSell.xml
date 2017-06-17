@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsSellId" value="资产出售："/>
+  <Text name="AssetsSellNo" value="出售编号："/>
+  <Text name="AssetsSellName" value="出售名称："/>
+  <Text name="SellDate" value="出售时间："/>
+</layout>

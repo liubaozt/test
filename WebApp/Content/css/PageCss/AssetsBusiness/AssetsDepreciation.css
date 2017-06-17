@@ -1,0 +1,68 @@
+﻿.labelAssetsDepreciationList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsDepreciationList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsDepreciationList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsDepreciationList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsDepreciationListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsDepreciationListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsDepreciationEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsDepreciationEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsDepreciationEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsDepreciationEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsDepreciationEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsDepreciationEntryColumn2
+{
+	width:220px;
+	float:left;
+}

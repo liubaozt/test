@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeText>
+  <Text name="M" value="货币单位"/>
+  <Text name="W" value="重量单位"/>
+  <Text name="V" value="体积单位"/>
+  <Text name="L" value="长度单位"/>
+  <Text name="J" value="件数单位"/>
+  <Text name="N" value="数量单位"/>
+</CodeText>

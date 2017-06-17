@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="SetBooks" value="帐套"/>
+  <Text name="SetBooksId" value="帐套主键："/>
+  <Text name="SetBooksNo" value="帐套编码："/>
+  <Text name="SetBooksName" value="帐套名称："/>
+  <Text name="Remark" value="备注："/>
+</layout>

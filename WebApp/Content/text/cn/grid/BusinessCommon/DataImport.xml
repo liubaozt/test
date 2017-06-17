@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="导入文件一览"/>
+  <columnLayout>
+    <Header name="seqno" caption="序号" index="seqno" align="Left" hidden="true"  width="100"  />
+    <Header name="fileName"  caption="文件名称"  index="fileName" align="Left" hidden="false"  width="100" />
+    <Header name="sortNo"  caption="更新顺序"  index="sortNo" align="Left" hidden="false"  width="100" />
+  </columnLayout>
+</gridLayout>

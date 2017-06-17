@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产盘点信息表"/>
+  <columnLayout>
+    <Header name="AssetsNo"  caption="资产编码"  index="AssetsNo" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="PurchaseDate" caption="入库日期" index="PurchaseDate" align="Left" hidden="false"  width="200"  />
+   
+  </columnLayout>
+</gridLayout>

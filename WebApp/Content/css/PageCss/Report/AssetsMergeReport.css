@@ -1,0 +1,34 @@
+﻿.labelAssetsMergeReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsMergeReportColumn2
+{
+	width:250px;
+	float:left;
+}

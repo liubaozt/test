@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Base.Master" Inherits="System.Web.Mvc.ViewMasterPage<BaseCommon.Models.EntryViewModel>" %>
+
+<%@ Import Namespace="BaseControl.HtmlHelpers" %>
+<%@ Import Namespace="BaseCommon.Basic" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <script type="text/javascript">
+     
+        $(document).ready(function () {
+            var pageId = '<%=Model.PageId %>';
+            var formMode = '<%=Model.FormMode %>';
+            $(':input').change(function () {
+                $('#' + 'btnSave' + pageId).attr('disabled', false);
+                //$('#' + 'btnSave' + pageId).css('background', '');
+            });
+            var ret = '<%=Model.ReturnUrl %>';
+            if (ret == null || ret == "") {
+                $('#' + 'btnReturn' + pageId).hide();
+            }
+            if (formMode.indexOf("view") >= 0) {
+                $('#' + 'btnSave' + pageId).hide();
+            }
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <%:Html.AppBeginForm(Model.PageId, Model.FormId)%>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <br />
+    <asp:ContentPlaceHolder ID="ButtonContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <%:Html.AppSubmitButton(this.Url, Model.PageId, "btnSave", Model.FormId, Model.SaveButtonText, Model.SaveUrl, Model.FormMode, Model.IsDisabled, Model.CustomClick, Model.PageFlag)%>
+    <%:Html.AppLinkButton(Model.PageId, "btnReturn", AppMember.AppText["BtnReturn"], Model.ReturnUrl,Model.ViewTitle)%>
+    <div id="ProcessSaveTick<%=Model.PageId %>"  style="color:Red">
+    </div>
+    <%:Html.AppHiddenFor(m => m.PageId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.FormId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.Message, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.FormMode, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.SaveButtonText, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.HasError, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ViewTitle,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.SaveUrl,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.ReturnUrl,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.PageFlag,Model.PageId) %>
+    <div id="btnSave<%=Model.PageId %>Dialog" title='<%=AppMember.AppText["DeleteTitle"].ToString() %> '>
+    </div>
+    <%:Html.AppEndForm() %>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pageId = '<%=Model.PageId %>';
+            var formMode = '<%=Model.FormMode %>';
+            if (formMode == "delete")
+                $('#' + 'btnSave' + pageId).attr('disabled', false);
+        });
+    </script>
+</asp:Content>

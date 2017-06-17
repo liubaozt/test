@@ -1,0 +1,75 @@
+﻿.labelAssetsMergeList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMergeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsMergeEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsMergeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsMergeEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsMergeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsMergeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsMergeEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsMergeEntryColumn2
+{
+	width:220px;
+	float:left;
+}

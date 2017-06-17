@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsUsesList" value="资产用途一览表"/>
+  <Text name="AssetsUsesId" value="资产用途："/>
+  <Text name="AssetsUsesNo" value="资产用途编码："/>
+  <Text name="AssetsUsesName" value="资产用途名称："/>
+</layout>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="PurchaseTypeId" value="购置方式："/>
+  <Text name="PurchaseTypeNo" value="购置方式编码："/>
+  <Text name="PurchaseTypeName" value="购置方式名称："/>
+</layout>

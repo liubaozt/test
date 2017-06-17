@@ -1,0 +1,58 @@
+﻿.labelFiscalPeriodList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textFiscalPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalPeriodList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalPeriodList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.FiscalPeriodListColumn1
+{
+	width:220px;
+	float:left;
+}
+.FiscalPeriodListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelFiscalPeriodEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textFiscalPeriodEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectFiscalPeriodEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogFiscalPeriodEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="GroupList" value="用户组一览表"/>
+  <Text name="Group" value="用户组"/>
+  <Text name="GroupId" value="用户组："/>
+  <Text name="GroupNo" value="用户组编码："/>
+  <Text name="GroupName" value="用户组名称："/>
+  <Text name="Remark" value="备注："/>
+</layout>

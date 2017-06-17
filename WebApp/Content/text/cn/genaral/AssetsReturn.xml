@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsReturnList" value="资产归还一览表"/>
+  <Text name="AssetsReturnStayList" value="归还资产"/>
+  <Text name="AssetsReturnId" value="资产归还："/>
+  <Text name="AssetsReturnNo" value="归还编号："/>
+  <Text name="AssetsReturnName" value="归还名称："/>
+  <Text name="ReturnDate" value="归还时间："/>
+  <Text name="ReturnPeople" value="归还人："/>
+</layout>

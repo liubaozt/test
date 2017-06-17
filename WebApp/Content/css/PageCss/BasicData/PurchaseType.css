@@ -1,0 +1,58 @@
+﻿.labelPurchaseTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textPurchaseTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectPurchaseTypeList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogPurchaseTypeList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.PurchaseTypeListColumn1
+{
+	width:220px;
+	float:left;
+}
+.PurchaseTypeListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelPurchaseTypeEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.textPurchaseTypeEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectPurchaseTypeEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogPurchaseTypeEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

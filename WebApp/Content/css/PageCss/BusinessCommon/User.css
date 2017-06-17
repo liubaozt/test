@@ -1,0 +1,69 @@
+﻿.labelUserList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.labelGroupUserList
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.textUserList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectUserList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogUserList
+{
+	width:89px;
+	float:left;
+	text-align:left;
+}
+.UserListColumn1
+{
+	width:220px;
+	float:left;
+}
+.UserListColumn2
+{
+	width:220px;
+	float:left;
+}
+.UserListColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelUserEntry
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textUserEntry
+{
+	width:180px;
+	float:left;
+	text-align:left;
+}
+.selectUserEntry
+{
+	width:184px;
+	float:left;
+	text-align:left;
+}
+.dialogUserEntry
+{
+	width:168px;
+	float:left;
+	text-align:left;
+}

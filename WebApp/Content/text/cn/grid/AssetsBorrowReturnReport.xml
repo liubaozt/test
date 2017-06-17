@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+  <Header name="AssetsNo" caption="资产编码" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsBorrowNo"  caption="借用编码"  index="AssetsBorrowNo" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsBorrowName"  caption="借用名称"  index="AssetsBorrowName" align="Left" hidden="false"  width="100" />
+  <Header name="BorrowPeople" caption="借用名称" index="BorrowPeople" align="Left" hidden="false"  width="100"  />
+  <Header name="BorrowDepartmentId" caption="借用部门" index="BorrowDepartmentId" align="Left" hidden="false"  width="100"  />
+  <Header name="BorrowDate" caption="借用时间" index="BorrowDate" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsReturnNo" caption="归还编码" index="AssetsReturnNo" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsReturnName" caption="归还名称" index="AssetsReturnName" align="Left" hidden="false"  width="100"  />
+  <Header name="ReturnPeople" caption="归还人" index="ReturnPeople" align="Left" hidden="false"  width="100"  />
+  <Header name="ReturnDate" caption="归还时间" index="ReturnDate" align="Left" hidden="false"  width="100"  />
+</layout>

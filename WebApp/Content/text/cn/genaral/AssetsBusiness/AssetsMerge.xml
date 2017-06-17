@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsMergeId" value="资产合并："/>
+  <Text name="AssetsMergeNo" value="合并编号："/>
+  <Text name="AssetsMergeName" value="合并名称："/>
+</layout>

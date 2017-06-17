@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产变动表(存放地点别)"/>
+  <groupHeader>
+    <Header startColumnName="storeSiteName" numberOfRows="2" titleText="存放地点"  />
+    <Header startColumnName="beginPeriodNum" numberOfColumns="2" titleText="期初结存"  />
+    <Header startColumnName="currentPeriodAddNum" numberOfColumns="2" titleText="本期增加"  />
+    <Header startColumnName="currentPeriodReduceNum" numberOfColumns="2" titleText="本期减少"  />
+    <Header startColumnName="endPeriodNum" numberOfColumns="2" titleText="期末结存"  />
+  </groupHeader>
+  <columnLayout>
+    <Header name="storeSiteName" caption="存放地点" index="assetsClassId" align="Left" hidden="false"  width="100" isRowspan="true"  />
+    <Header name="beginPeriodNum" caption="数量" index="beginPeriodNum" align="right" hidden="false"  width="100"  />
+    <Header name="beginPeriodAmt" caption="金额" index="beginPeriodAmt" align="right" hidden="false"  width="100"  />
+    <Header name="currentPeriodAddNum" caption="数量"  index="currentPeriodAddNum" align="right" hidden="false" width="100" />
+    <Header name="currentPeriodAddAmt" caption="金额"  index="currentPeriodAddAmt" align="right" hidden="false" width="80"/>
+    <Header name="currentPeriodReduceNum" caption="数量"  index="currentPeriodReduceNum" align="right" hidden="false" width="100" />
+    <Header name="currentPeriodReduceAmt" caption="金额"  index="currentPeriodReduceAmt" align="right" hidden="false" width="100"/>
+    <Header name="endPeriodNum" caption="数量"  index="endPeriodNum" align="right" hidden="false" width="100" />
+    <Header name="endPeriodAmt" caption="金额"  index="endPeriodAmt" align="right" hidden="false" width="100"/>
+  </columnLayout>
+</gridLayout>

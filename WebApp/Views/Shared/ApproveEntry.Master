@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Shared/Base.Master" Inherits="System.Web.Mvc.ViewMasterPage<BaseCommon.Models.ApproveEntryViewModel>" %>
+
+<%@ Import Namespace="BaseControl.HtmlHelpers" %>
+<%@ Import Namespace="BaseCommon.Basic" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pageId = '<%=Model.PageId %>';
+            var formMode = '<%=Model.FormMode %>';
+            $(':input').change(function () {
+                $('#' + 'btnSave' + pageId).attr('disabled', false);
+                $('#' + 'btnApproveReturn' + pageId).attr('disabled', false);
+            });
+            var ret = '<%=Model.ReturnUrl %>';
+            if (ret == null || ret == "") {
+                $('#' + 'btnReturn' + pageId).hide();
+            }
+            if (formMode.indexOf("view")>=0) {
+                $('#' + 'btnSave' + pageId).hide();
+            }
+            if (formMode == "new2") {
+                $('#' + 'btnReturn' + pageId).hide();
+            }
+            if (formMode == "approveinfo") {
+                $('#' + 'btnSave' + pageId).hide();
+            }
+            if (formMode == "approve") {
+                $('#tabs' + pageId).tabs();
+                $('#tabs-basic-' + pageId + ' :input').attr('disabled', true);
+                $('#approve' + pageId).show();
+                $('#tabs-approve-' + pageId).show();
+                $('#' + 'btnApproveReturn' + pageId).show();
+            }
+            else if (formMode == "approveview" || formMode == "approveinfo") {
+                $('#tabs' + pageId).tabs();
+                //$('#tabs-basic-' + pageId + ' :input').attr('disabled', true);
+                $('#approve' + pageId).show();
+                $('#tabs-approve-' + pageId).show();
+                $('#' + 'btnApproveReturn' + pageId).hide();
+                $('#approveMind' + pageId).hide();
+            }
+            else if (formMode == "reapply") {
+                $('#tabs' + pageId).tabs();
+                //$('#tabs-approve-' + pageId + ' :input').attr('disabled', true);
+                $('#approve' + pageId).show();
+                $('#tabs-approve-' + pageId).show();
+                $('#' + 'btnApproveReturn' + pageId).hide();
+                $('#approveMind' + pageId).hide();
+            }
+            else if (formMode == "reapplyview") {
+                $('#tabs' + pageId).tabs();
+                //$('#tabs-approve-' + pageId + ' :input').attr('disabled', true);
+                $('#approve' + pageId).show();
+                $('#tabs-approve-' + pageId).show();
+                $('#' + 'btnApproveReturn' + pageId).hide();
+                $('#approveMind' + pageId).hide();
+            }
+            else if (formMode == "view" || formMode == "actualview") {
+                $('#ullist' + pageId).hide();
+                $('#approve' + pageId).hide();
+                $('#tabs-approve-' + pageId).hide();
+                $('#' + 'btnApproveReturn' + pageId).hide();
+                $('#' + 'btnSave' + pageId).hide();
+                $('#tabs-basic-' + pageId + ' :input').attr('disabled', true);
+            }
+            else {
+                $('#ullist' + pageId).hide();
+                $('#approve' + pageId).hide();
+                $('#tabs-approve-' + pageId).hide();
+                $('#' + 'btnApproveReturn' + pageId).hide();
+            }
+            if (formMode == "delete")
+                $('#' + 'btnSave' + pageId).attr('disabled', false);
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <%:Html.AppBeginForm(Model.PageId, Model.FormId)%>
+    <div id="tabs<%=Model.PageId%>">
+        <ul id="ullist<%=Model.PageId%>">
+            <li id="basic<%=Model.PageId%>"><a href="#tabs-basic-<%=Model.PageId%>">
+                <%=AppMember.AppText["BasicInfo"].ToString()%></a></li>
+            <asp:ContentPlaceHolder ID="TabsLiContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <li id="approve<%=Model.PageId%>"><a href="#tabs-approve-<%=Model.PageId%>">
+                <%=AppMember.AppText["ApproveInfo"].ToString()%></a></li>
+        </ul>
+        <div id="tabs-basic-<%=Model.PageId%>">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:ContentPlaceHolder ID="TabsDivContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="tabs-approve-<%=Model.PageId%>">
+            <% if (Model.FormMode.Contains("approve") || Model.FormMode.Contains("reapply"))
+               { %>
+            <%--<%:Html.AppGridFor(this.Url, Model.PageId,"", "list", AppMember.AppText["ApproveList"].ToString(),
+                                       Url.Action("ApproveGridData", "Home", new { Area = "", pkValue = Model.ApprovePkValue, tableName = Model.ApproveTableName }), Model == null ? null : Model.ApproveGridLayout,"","","", 300)%>--%>
+            <%:Html.AppNormalGridFor(this.Url, Model.PageId, "list",  Url.Action("ApproveGridData", "Home", new { Area = "", pkValue = Model.ApprovePkValue, tableName = Model.ApproveTableName }),
+                                Model.ApproveGridLayout, 250)%>
+            <%} %>
+        </div>
+    </div>
+    <% if (Model.FormMode == "approve" || Model.FormMode == "reapply")
+       { %>
+    <div id="approveMind<%=Model.PageId%>" class="editor-field">
+        <%:Html.AppLabelFor(m => m.ApproveMind, Model.PageId, "ApproveEntry")%>
+        <%:Html.AppTextBoxFor(m => m.ApproveMind, Model.PageId, "ApproveEntry")%>
+        <%:Html.ValidationMessageFor(m => m.ApproveMind)%>
+    </div>
+    <%} %>
+    <br />
+    <asp:ContentPlaceHolder ID="ButtonContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <%:Html.AppSubmitButton(this.Url, Model.PageId, "btnSave", Model.FormId, Model.SaveButtonText, Model.SaveUrl,Model.FormMode, Model.IsDisabled, Model.CustomClick,Model.PageFlag)%>
+    <%:Html.AppSubmitButton(this.Url, Model.PageId, "btnApproveReturn", Model.FormId, AppMember.AppText["ApproveReturn"], Model.ApproveReturnUrl, Model.FormMode, Model.IsDisabled, Model.CustomClick, Model.PageFlag)%>
+    <%:Html.AppLinkButton(Model.PageId, "btnReturn", AppMember.AppText["BtnReturn"], Model.ReturnUrl,Model.ViewTitle)%>
+    <div id="ProcessSaveTick<%=Model.PageId %>"  style="color:Red">
+    </div>
+    <%:Html.AppHiddenFor(m => m.PageId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.FormId, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.FormMode, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.SaveButtonText, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.Message, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.HasError, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ViewTitle,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.SaveUrl,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.ReturnUrl,Model.PageId) %>
+    <%:Html.AppHiddenFor(m => m.ApproveLevel, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ApproveNode, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ApproveTableName, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ApprovePkField, Model.PageId)%>
+    <%:Html.AppHiddenFor(m => m.ApprovePkValue, Model.PageId)%>
+    <div id="btnSave<%=Model.PageId %>Dialog" title='<%=AppMember.AppText["DeleteTitle"].ToString() %> '>
+    </div>
+    <div id="SelectDialog<%=Model.PageId%>">
+    </div>
+    <%:Html.AppEndForm() %>
+</asp:Content>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsDepreciationList" value="资产折旧一览表"/>
+  <Text name="AssetsDepreciationStayList" value="待折旧资产"/>
+</layout>

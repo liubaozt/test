@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="SupplierList" value="供应商一览表"/>
+  <Text name="SupplierId" value="供应商："/>
+  <Text name="SupplierNo" value="供应商编码："/>
+  <Text name="SupplierName" value="供应商名称："/>
+  <Text name="Contacts" value="联系人："/>
+</layout>

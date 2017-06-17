@@ -1,0 +1,68 @@
+﻿.labelMonthRecordList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textMonthRecordList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectMonthRecordList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogMonthRecordList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.MonthRecordListColumn1
+{
+	width:220px;
+	float:left;
+}
+.MonthRecordListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelMonthRecordEntry
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textMonthRecordEntry
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectMonthRecordEntry
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogMonthRecordEntry
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.MonthRecordEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.MonthRecordEntryColumn2
+{
+	width:220px;
+	float:left;
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产盘点一览表"/>
+  <columnLayout>
+    <Header name="assetsCheckId" caption="盘点主键" index="assetsCheckId" align="Left" hidden="true"  width="100"  />
+    <Header name="assetsCheckNo"  caption="盘点编码"  index="assetsCheckNo" align="Left" hidden="false"  width="100"/>
+    <Header name="assetsCheckName" caption="盘点名称"  index="assetsCheckName" align="Left" hidden="false" width="150"/>
+    <Header name="approveState" caption="审批状态"  index="approveState" align="Left" hidden="false" width="150"/>
+    <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+    <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+    <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+    <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+    <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+  </columnLayout>
+</gridLayout>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="即将过保资产表"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="100"  />
+    <Header name="DepartmentId" caption="部门" index="DepartmentId" align="Left" hidden="false"  width="100"  />
+    <Header name="StoreSiteId" caption="存放地点"  index="StoreSiteId" align="Left" hidden="false" width="100"/>
+    <Header name="UsePeople" caption="使用人"  index="UsePeople" align="Left" hidden="false" width="100"/>
+    <Header name="Keeper" caption="保管人"  index="Keeper" align="Left" hidden="false" width="100"/>
+    <Header name="PurchaseDate" caption="入库日期"  index="PurchaseDate" align="Center" hidden="false" width="100" />
+    <Header name="GuaranteeDays" caption="保修天数"  index="GuaranteeDays" align="right" hidden="false" width="80"/>
+    <Header name="EndDate" caption="过保日期"  index="EndDate" align="Center" hidden="false" width="100" />
+  </columnLayout>
+</gridLayout>

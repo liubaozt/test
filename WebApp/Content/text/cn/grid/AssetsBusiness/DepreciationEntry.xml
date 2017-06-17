@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="折旧资产"/>
+  <columnLayout>
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="DepreciationType" caption="折旧方法" index="DepreciationType" align="Left" hidden="true"  width="150"  />
+    <Header name="PurchaseDate" caption="入库日期"  index="PurchaseDate" align="Center" hidden="false" width="100"  />
+    <Header name="AssetsValue" caption="资产原值" index="AssetsValue" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsNetValue" caption="资产净值" index="AssetsNetValue" align="Left" hidden="false"  width="100"  />
+    <Header name="DepreciationTotal" caption="已折旧额"  index="DepreciationTotal" align="Left" hidden="false" width="100" />
+    <Header name="DepreciationAmount" caption="本次折旧额"  index="DepreciationAmount" align="Left" hidden="false" width="100" />
+  </columnLayout>
+</gridLayout>

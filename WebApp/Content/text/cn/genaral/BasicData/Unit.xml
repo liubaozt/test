@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="UnitId" value="单位："/>
+  <Text name="UnitNo" value="单位编码："/>
+  <Text name="UnitName" value="单位名称："/>
+  <Text name="UnitType" value="单位类型："/>
+</layout>

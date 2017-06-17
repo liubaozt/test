@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="projectManageId" caption="项目管理主键" index="projectManageId" align="Left" hidden="true"  width="100"  />
+  <Header name="projectManageNo"  caption="项目管理编号"  index="projectManageNo" align="Left" hidden="false"  width="100"/>
+  <Header name="projectManageName" caption="项目管理名称"  index="projectManageName" align="Left" hidden="false" width="150"/>
+  <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+  <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+  <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+  <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+  <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+</layout>

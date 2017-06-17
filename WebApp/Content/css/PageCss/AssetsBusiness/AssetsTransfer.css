@@ -1,0 +1,99 @@
+﻿.labelAssetsTransferList
+{
+	width:85px;
+	float:left;
+	text-align:left;
+}
+.textAssetsTransferList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTransferList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTransferList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsTransferListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsTransferListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsTransferEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.AutoNoButtonAssetsTransferEntry
+{
+	width:16px;
+	height:21px;
+	vertical-align:bottom;
+	float:left;
+	text-align:left;
+	margin: 0 0;
+	padding: 0 0;
+}
+.textAssetsTransferEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsTransferEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsTransferEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorAssetsTransferEntry
+{
+    LEFT: 80px;
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.editorInputAssetsTransferEntry
+{
+    LEFT: 80px;
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsTransferEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsTransferEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsTransferEntryColumn2
+{
+	width:220px;
+	float:left;
+}

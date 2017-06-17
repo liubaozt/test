@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产调拨信息表"/>
+  <columnLayout>
+    <Header name="AssetsTransferNo"  caption="调拨编码"  index="AssetsTransferNo" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsTransferName"  caption="调拨名称"  index="AssetsTransferName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="TransferDate"  caption="调拨时间"  index="TransferDate" align="Center" hidden="false"  width="100"  />
+    <Header name="OriginalDepartmentId" caption="原部门" index="OriginalDepartmentId" align="Left" hidden="false"  width="100"  />
+    <Header name="OriginalStoreSiteId" caption="原存放地点" index="OriginalStoreSiteId" align="Left" hidden="false"  width="100"  />
+    <Header name="OriginalKeeper" caption="原保管人" index="OriginalKeeper" align="Left" hidden="false"  width="100"  />
+    <Header name="OriginalUsePeople" caption="原使用人" index="OriginalUsePeople" align="Left" hidden="false"  width="100"  />
+    <Header name="NewDepartmentId" caption="当前部门" index="NewDepartmentId" align="Left" hidden="false"  width="100"  />
+    <Header name="NewStoreSiteId" caption="当前存放地点" index="NewStoreSiteId" align="Left" hidden="false"  width="100"  />
+    <Header name="NewKeeper" caption="当前保管人" index="NewKeeper" align="Left" hidden="false"  width="100"  />
+    <Header name="NewUsePeople" caption="当前使用人" index="NewUsePeople" align="Left" hidden="false"  width="100"  />
+    <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

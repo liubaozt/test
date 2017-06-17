@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产维修信息表"/>
+  <columnLayout>
+    <Header name="AssetsMaintainNo"  caption="维修编码"  index="AssetsMaintainNo" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsMaintainName"  caption="维修名称"  index="AssetsMaintainName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="MaintainCompany" caption="报修公司" index="MaintainCompany" align="Left" hidden="false"  width="100"  />
+    <Header name="MaintainAmount" caption="报修费用" index="MaintainAmount" align="right" hidden="false"  width="100"  />
+    <Header name="MaintainDate" caption="报修日期" index="MaintainDate" align="Center" hidden="false"  width="100"  />
+    <Header name="MaintainActualCompany" caption="实际维修公司" index="MaintainActualCompany" align="Left" hidden="false"  width="100"  />
+    <Header name="MaintainActualAmount" caption="实际维修费用" index="MaintainActualAmount" align="right" hidden="false"  width="100"  />
+    <Header name="MaintainActualDate" caption="实际维修日期" index="MaintainActualDate" align="Center" hidden="false"  width="100"  />
+    <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

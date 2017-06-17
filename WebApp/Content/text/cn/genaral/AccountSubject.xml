@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AccountSubjectList" value="科目一览表"/>
+  <Text name="AccountSubjectSelect" value="科目选择"/>
+  <Text name="AccountSubjectId" value="会计科目："/>
+  <Text name="AccountSubjectNo" value="科目编码："/>
+  <Text name="AccountSubjectName" value="科目名称："/>
+  <Text name="AccountParentId" value="上级科目："/>
+</layout>

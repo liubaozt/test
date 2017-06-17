@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="userId" caption="用户主键" index="userId" align="Left" hidden="true"  width="100"  />
+  <Header name="userNo"  caption="用户编号"  index="userNo" align="Left" hidden="false"  width="80" editable="true"/>
+  <Header name="userName" caption="用户姓名"  index="userName" align="Left" hidden="false" width="100" editable="true"/>
+  <Header name="groupId" caption="用户组"  index="groupId" align="Left" hidden="false" width="100" editable="true"/>
+  <Header name="departmentId" caption="部门"  index="departmentId" align="Left" hidden="false" width="100" editable="true"/>
+  <Header name="postId" caption="职位"  index="postId" align="Left" hidden="false" width="100" editable="true"/>
+  <Header name="sex" caption="性别"  index="sex" align="Left" hidden="false" width="40" editable="true"/>
+  <Header name="tel" caption="电话"  index="tel" align="Left" hidden="false" width="100" editable="true"/>
+  <Header name="email" caption="邮箱"  index="email" align="Left" hidden="false" width="150" editable="true"/>
+  <Header name="address" caption="地址"  index="address" align="Left" hidden="false" width="150" editable="true"/>
+  <Header name="createId" caption="创建者" index="createId" align="Left" hidden="false"  width="100"/>
+  <Header name="createTime" caption="创建时间"  index="createTime"  align="Center" hidden="false" width="150"/>
+  <Header name="updateId" caption="最后更新者"  index="updateId" align="Left" hidden="false" width="100" />
+  <Header name="updateTime" caption="最后更新时间"  index="updateTime" align="Center" hidden="false" width="150"/>
+  <Header name="updatePro" caption="最后更新机能"  index="updatePro" align="Left" hidden="false" width="150" />
+</layout>

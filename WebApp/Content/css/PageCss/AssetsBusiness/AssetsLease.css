@@ -1,0 +1,75 @@
+﻿.labelAssetsLeaseList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsLeaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsLeaseList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsLeaseList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsLeaseListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsLeaseListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsLeaseEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsLeaseEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsLeaseEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsLeaseEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsLeaseEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsLeaseEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsLeaseEntryColumn2
+{
+	width:220px;
+	float:left;
+}

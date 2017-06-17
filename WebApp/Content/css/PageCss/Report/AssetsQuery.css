@@ -1,0 +1,34 @@
+﻿.labelAssetsReport
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsReport
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsReport
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsReport
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsReportColumn1
+{
+	width:250px;
+	float:left;
+}
+.AssetsReportColumn2
+{
+	width:250px;
+	float:left;
+}

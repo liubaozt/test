@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsBorrowId" value="资产借用："/>
+  <Text name="AssetsBorrowNo" value="借用编号："/>
+  <Text name="AssetsBorrowName" value="借用名称："/>
+  <Text name="BorrowDate" value="借用时间："/>
+  <Text name="BorrowPeople" value="借用人："/>
+  <Text name="BorrowDepartmentId" value="借用部门："/>
+</layout>

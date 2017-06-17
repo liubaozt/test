@@ -1,0 +1,39 @@
+﻿.labelSystemLog
+{
+	width:60px;
+	float:left;
+	text-align:left;
+}
+.textSystemLog
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectSystemLog
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogSystemLog
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.SystemLogColumn1
+{
+	width:220px;
+	float:left;
+}
+.SystemLogColumn2
+{
+	width:220px;
+	float:left;
+}
+.SystemLogColumn3
+{
+	width:220px;
+	float:left;
+}

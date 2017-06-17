@@ -1,0 +1,63 @@
+﻿.labelUnitList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textUnitList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectUnitList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.dialogUnitList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.UnitListColumn1
+{
+	width:220px;
+	float:left;
+}
+.UnitListColumn2
+{
+	width:220px;
+	float:left;
+}
+.UnitListColumn3
+{
+	width:220px;
+	float:left;
+}
+.labelUnitEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textUnitEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectUnitEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogUnitEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

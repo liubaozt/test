@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="资产盘点信息表"/>
+  <columnLayout>
+    <Header name="AssetsCheckNo"  caption="盘点编码"  index="AssetsCheckNo" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsCheckName"  caption="盘点名称"  index="AssetsCheckName" align="Left" hidden="false"  width="100" />
+    <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+    <Header name="AssetsNo" caption="资产编号" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+    <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+    <Header name="CheckDate" caption="预盘日期" index="CheckDate" align="Center" hidden="false"  width="100"  />
+    <Header name="StoreSiteId" caption="存放地点" index="StoreSiteId" align="Left" hidden="false"  width="100"  />
+    <Header name="ActualCheckDate" caption="实际盘点日期" index="ActualCheckDate" align="Center" hidden="false"  width="100"  />
+    <Header name="ActualStoreSiteId" caption="实际存放地点" index="ActualStoreSiteId" align="Left" hidden="false"  width="100"  />
+    <Header name="IsFinished" caption="盘点完成" index="IsFinished" align="Left" hidden="false"  width="100"  />
+    <Header name="CheckResult" caption="盘点结果" index="CheckResult" align="Left" hidden="false"  width="100"  />
+    <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150"/>
+  </columnLayout>
+</gridLayout>

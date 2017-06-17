@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+  <Header name="AssetsNo" caption="资产编码" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsTypeId" caption="资产类型" index="AssetsTypeId" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsClassId" caption="资产分类" index="AssetsClassId" align="Left" hidden="false"  width="100"  />
+  <Header name="InsureCompany" caption="保险公司" index="InsureCompany" align="Left" hidden="false"  width="100" editable="true"  />
+  <Header name="InsureAmount"  caption="保险金额"  index="InsureAmount" align="Left" hidden="false"  width="60" editable="true"  />
+  <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150" editable="true"/>
+</layout>

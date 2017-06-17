@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gridLayout>
+  <gridTitle name="选择项"/>
+  <columnLayout>
+    <Header name="SelectKey"  caption="选择值"  index="SelectKey" align="Left" hidden="true"  width="100"/>
+    <Header name="SelectValue" caption="选择文本"  index="SelectValue" align="Left" hidden="false" width="80"/>
+  </columnLayout>
+</gridLayout>

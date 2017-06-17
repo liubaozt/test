@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage<BaseCommon.Models.BaseViewModel>" %>
+
+<%@ Import Namespace="BaseControl.HtmlHelpers" %>
+<%@ Import Namespace="BaseCommon.Basic" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+ <%--   <title></title>--%>
+    <%--<%=TempData["CssBlock"]%>
+    <%=TempData["ScriptBlock"]%>--%>
+    <style type="text/css">
+        .RequiredFlag
+        {
+            color: Orange;
+            font-family:"宋体";
+            float:left;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="MessageDialog<%=Model.PageId %>">
+        </div>
+    </div>
+</body>
+</html>

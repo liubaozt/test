@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+  <Header name="AssetsNo" caption="资产编码" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsCheckNo"  caption="盘点编码"  index="AssetsCheckNo" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsCheckName"  caption="盘点名称"  index="AssetsCheckName" align="Left" hidden="false"  width="100" />
+  <Header name="CheckPeople" caption="盘点人" index="CheckPeople" align="Left" hidden="false"  width="100"  />
+  <Header name="CheckDate" caption="盘点时间" index="CheckDate" align="Left" hidden="false"  width="100"  />
+  <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150"/>
+</layout>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsTransferId" value="资产调拨："/>
+  <Text name="AssetsTransferNo" value="调拨编号："/>
+  <Text name="AssetsTransferName" value="调拨名称："/>
+  <Text name="TransferDate" value="调拨时间："/>
+</layout>

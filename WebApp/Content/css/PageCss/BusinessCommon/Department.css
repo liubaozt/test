@@ -1,0 +1,63 @@
+﻿.labelDepartmentList
+{
+	width:70px;
+	float:left;
+	text-align:left;
+}
+.textDepartmentList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectDepartmentList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogDepartmentList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.DepartmentListColumn1
+{
+	width:200px;
+	float:left;
+}
+.DepartmentListColumn2
+{
+	width:200px;
+	float:left;
+}
+.DepartmentListColumn3
+{
+	width:200px;
+	float:left;
+}
+.labelDepartmentEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textDepartmentEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.selectDepartmentEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogDepartmentEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}

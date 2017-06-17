@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Text name="AssetsClassSelect" value="资产分类选择"/>
+  <Text name="AssetsClassId" value="资产分类："/>
+  <Text name="AssetsClassNo" value="资产分类编码："/>
+  <Text name="AssetsClassName" value="资产分类名称："/>
+  <Text name="AssetsClassParentId" value="上级分类："/>
+  <Text name="DurableYears" value="可用年限："/>
+  <Text name="RemainRate" value="残值率："/>
+  <Text name="DepreciationType" value="折旧方法："/>
+  <Text name="AcountUnit" value="计量单位："/>
+</layout>

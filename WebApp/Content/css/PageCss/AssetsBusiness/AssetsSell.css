@@ -1,0 +1,75 @@
+﻿.labelAssetsSellList
+{
+	width:90px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSellList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSellList
+{
+	width:100px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSellList
+{
+	width:105px;
+	float:left;
+	text-align:left;
+}
+.AssetsSellListColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSellListColumn2
+{
+	width:220px;
+	float:left;
+}
+.labelAssetsSellEntry
+{
+	width:80px;
+	float:left;
+	text-align:left;
+}
+.textAssetsSellEntry
+{
+	width:120px;
+	float:left;
+	text-align:left;
+}
+.textNoAssetsSellEntry
+{
+	width:92px;
+	vertical-align:middle;
+	float:left;
+	text-align:left;
+}
+.selectAssetsSellEntry
+{
+	width:126px;
+	float:left;
+	text-align:left;
+}
+.dialogAssetsSellEntry
+{
+	width:108px;
+	float:left;
+	text-align:left;
+}
+.AssetsSellEntryColumn1
+{
+	width:220px;
+	float:left;
+}
+.AssetsSellEntryColumn2
+{
+	width:220px;
+	float:left;
+}

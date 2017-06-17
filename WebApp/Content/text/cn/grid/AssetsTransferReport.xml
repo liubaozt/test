@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+  <Header name="AssetsId" caption="资产主键" index="AssetsId" align="Left" hidden="true"  width="100"  />
+  <Header name="AssetsNo" caption="资产编码" index="AssetsNo" align="Left" hidden="false"  width="100"  />
+  <Header name="AssetsName"  caption="资产名称"  index="AssetsName" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsTransferNo"  caption="移动编码"  index="AssetsTransferNo" align="Left" hidden="false"  width="100" />
+  <Header name="AssetsTransferName"  caption="移动名称"  index="AssetsTransferName" align="Left" hidden="false"  width="100" />
+  <Header name="OriginalDepartmentId" caption="原部门" index="OriginalDepartmentId" align="Left" hidden="false"  width="100"  />
+  <Header name="OriginalStoreSiteId" caption="原保管场所" index="OriginalStoreSiteId" align="Left" hidden="false"  width="100"  />
+  <Header name="OriginalKeeper" caption="原保管人" index="OriginalKeeper" align="Left" hidden="false"  width="100"  />
+  <Header name="OriginalUsePeople" caption="原使用人" index="OriginalUsePeople" align="Left" hidden="false"  width="100"  />
+  <Header name="NewDepartmentId" caption="当前部门" index="NewDepartmentId" align="Left" hidden="false"  width="100"  />
+  <Header name="NewStoreSiteId" caption="当前保管场所" index="NewStoreSiteId" align="Left" hidden="false"  width="100"  />
+  <Header name="NewKeeper" caption="当前保管人" index="NewKeeper" align="Left" hidden="false"  width="100"  />
+  <Header name="NewUsePeople" caption="当前使用人" index="NewUsePeople" align="Left" hidden="false"  width="100"  />
+  <Header name="Remark" caption="备注"  index="Remark" align="Left" hidden="false" width="150"/>
+</layout>
