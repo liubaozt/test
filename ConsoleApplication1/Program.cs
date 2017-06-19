@@ -22,6 +22,8 @@ namespace ConsoleApplication1
             dr["col3"] = "男";
             dt.Rows.Add(dr);
             eh.DataTableToExcel(dt, 1, 2, 1, "test");
+
+            //这是我添加的注释 用于测试。2017-6-19
         }
     }
 }
