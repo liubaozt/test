@@ -11,9 +11,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            ExcelHelper1 eh = new ExcelHelper1(@"d:\templet.xls", @"d:\out.xls");
+            ExcelHelper1 eh = new ExcelHelper1(@"d:\templet.xls", @"d:\out.xls"); 
             DataTable dt = new DataTable("table");
-            dt.Columns.Add("col1", System.Type.GetType("System.String"));
+            dt.Columns.Add("col1", System.Type.GetType("System.String"));//
             dt.Columns.Add("col2", System.Type.GetType("System.String"));
             dt.Columns.Add("col3", System.Type.GetType("System.String"));
             DataRow dr = dt.NewRow();
