@@ -21,7 +21,7 @@ namespace ConsoleApplication1
             dr["col2"] = "30";
             dr["col3"] = "男";
             dt.Rows.Add(dr);
-            eh.DataTableToExcel(dt, 1, 2, 1, "test");
+            eh.DataTableToExcel(dt, 1, 2, 1, "test");  //test hhhhh0624
         }
     }
 }
